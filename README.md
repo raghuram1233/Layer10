@@ -8,7 +8,7 @@ This project ingests raw email data, extracts structured “claims” and entiti
 
 ## 🔍 What it does
 
-1. **Load** a CSV of emails (`sample_5.csv`, `emails.csv`, etc.).
+1. **Load** a CSV of emails  `emails.csv`.
 2. **Parse** the raw MIME text; clean quoted text and forwarded sections.
 3. **Call an LLM** (via an Ollama local server) to extract:
 
@@ -78,7 +78,7 @@ Default credentials used in code:
 
 ```
 username: neo4j
-password: asdfghjkl
+password: ****Password****
 ```
 
 (Adjust in `main.py` if needed.)
