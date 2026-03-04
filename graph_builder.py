@@ -43,7 +43,7 @@ class Neo4jGraph:
         type=entity.type,
         email=entity.email
         )
-
+        
     def insert_claim(self, tx, claim):
 
         claim_id = generate_claim_id(claim)

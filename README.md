@@ -1,6 +1,6 @@
 ---
 
-# 📧 Email Knowledge Extraction & Graph Memory
+# Layer10 Assignment
 
 This project ingests raw email data, extracts structured “claims” and entities using an LLM, normalises and de-duplicates the results, and persists everything in a Neo4j knowledge graph. A simple QA layer lets you query the accumulated memory by keywords.
 
