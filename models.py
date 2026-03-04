@@ -13,6 +13,7 @@ class Entity(BaseModel):
     type: Literal["Person", "Organization", "Project", "Topic","Location"]
     name: str
     email: Optional[str] = None
+    aliases: List[str] = Field(default_factory=list)
 
 
 class Claim(BaseModel):

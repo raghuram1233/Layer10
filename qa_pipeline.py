@@ -80,7 +80,8 @@ class MemoryQA:
                 [kw IN $keywords WHERE
                     (e.name IS NOT NULL AND toLower(e.name) CONTAINS kw) OR
                     (e.normalized_name IS NOT NULL AND toLower(e.normalized_name) CONTAINS kw) OR
-                    (e.email IS NOT NULL AND toLower(e.email) CONTAINS kw)
+                    (e.email IS NOT NULL AND toLower(e.email) CONTAINS kw) OR
+                    (e.aliases IS NOT NULL AND ANY(alias IN e.aliases WHERE toLower(alias) CONTAINS kw))
                 ] AS matched_keywords
 
             WITH e, size(matched_keywords) AS keyword_matches
@@ -102,6 +103,7 @@ class MemoryQA:
                     "name": e.get("name"),
                     "type": e.get("type"),
                     "email": e.get("email"),
+                    "aliases": e.get("aliases") or [],
                     "keyword_matches": record["keyword_matches"]
                 })
 

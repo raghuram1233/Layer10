@@ -48,6 +48,9 @@ Only extract entities that are directly involved in a claim.
 
 Do NOT extract entities that are merely mentioned but not part of a claim.
 
+For Person entities, if the person is referred to by multiple names or nicknames,
+extract the primary name and include any aliases used in the email.
+
 ------------------------------------------------------------
 CLAIM STRUCTURE RULES
 ------------------------------------------------------------
@@ -161,7 +164,8 @@ Return ONLY valid JSON:
     {{
       "type": "Person|Organization|Project|Topic",
       "name": "string",
-      "email": "string or null"
+      "email": "string or null",
+      "aliases": ["string", "string"] or []
     }}
   ],
   "claims": [

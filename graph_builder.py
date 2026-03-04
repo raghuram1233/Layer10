@@ -31,17 +31,23 @@ class Neo4jGraph:
     def insert_entity(self, tx, entity):
         normalized = entity.email if entity.email else entity.name.lower()
 
+        aliases_list = entity.aliases if entity.aliases else []
+
         tx.run("""
         MERGE (e:Entity {normalized_name: toLower($normalized_name)})
         ON CREATE SET
             e.name = $name,
             e.type = $type,
-            e.email = $email
+            e.email = $email,
+            e.aliases = $aliases
+        ON MATCH SET
+            e.aliases = $aliases
         """,
         normalized_name=normalized,
         name=entity.name,
         type=entity.type,
-        email=entity.email
+        email=entity.email,
+        aliases=aliases_list
         )
         
     def insert_claim(self, tx, claim):

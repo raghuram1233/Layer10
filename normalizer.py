@@ -7,11 +7,6 @@ from models import Entity
 def normalize_string(s: str):
     return s.strip().lower() if s else None
 
-def normalize_person(name, email):
-    if email:
-        return email.lower()
-    return name.lower().replace(" ", ".")
-
 def deduplicate_entities(entities: List[Entity]) -> List[Entity]:
 
     email_map = {}
@@ -29,9 +24,14 @@ def deduplicate_entities(entities: List[Entity]) -> List[Entity]:
                 # Prefer entity that has richer data
                 existing = email_map[normalized_email]
 
+                # Merge aliases
+                merged_aliases = list(set((existing.aliases or []) + (entity.aliases or [])))
+                existing.aliases = [a for a in merged_aliases if a]
+
                 # Prefer entity with proper capitalization name
                 if existing.name.islower() and not entity.name.islower():
                     email_map[normalized_email] = entity
+                    email_map[normalized_email].aliases = merged_aliases
 
         else:
             if normalized_name not in name_map:
@@ -39,8 +39,13 @@ def deduplicate_entities(entities: List[Entity]) -> List[Entity]:
             else:
                 existing = name_map[normalized_name]
 
+                # Merge aliases
+                merged_aliases = list(set((existing.aliases or []) + (entity.aliases or [])))
+                existing.aliases = [a for a in merged_aliases if a]
+
                 if entity.email and not existing.email:
                     name_map[normalized_name] = entity
+                    name_map[normalized_name].aliases = merged_aliases
 
     deduped = list(email_map.values())
 

@@ -3,3 +3,5 @@ operations.ipynb
 sample_5.csv
 sample_emails.csv
 Resources/timeline.png
+__pycache__
+.vscode
