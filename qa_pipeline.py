@@ -22,9 +22,6 @@ class MemoryQA:
     def close(self):
         self.driver.close()
 
-    # -----------------------------
-    # ARTIFACT SEARCH
-    # -----------------------------
     def search_artifacts(self, keywords):
 
         if not keywords:
@@ -69,9 +66,6 @@ class MemoryQA:
 
             return results
 
-    # -----------------------------
-    # ENTITY SEARCH
-    # -----------------------------
     def search_entities(self, keywords):
 
         if not keywords:
@@ -113,9 +107,6 @@ class MemoryQA:
 
             return results
 
-    # -----------------------------
-    # CLAIM + EVIDENCE SEARCH
-    # -----------------------------
     def search_claims(self, keywords):
 
         if not keywords:

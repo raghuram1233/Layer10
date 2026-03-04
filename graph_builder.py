@@ -15,9 +15,6 @@ class Neo4jGraph:
     def close(self):
         self.driver.close()
 
-    # ------------------------------------------------
-    # ARTIFACT
-    # ------------------------------------------------
     def insert_artifact(self, tx, artifact_id, subject, sender, timestamp):
         tx.run("""
         MERGE (a:Artifact {artifact_id: $artifact_id})
@@ -31,9 +28,6 @@ class Neo4jGraph:
         timestamp=str(timestamp)
         )
 
-    # ------------------------------------------------
-    # ENTITY
-    # ------------------------------------------------
     def insert_entity(self, tx, entity):
         normalized = entity.email if entity.email else entity.name.lower()
 
@@ -50,9 +44,6 @@ class Neo4jGraph:
         email=entity.email
         )
 
-    # ------------------------------------------------
-    # CLAIM
-    # ------------------------------------------------
     def insert_claim(self, tx, claim):
 
         claim_id = generate_claim_id(claim)
@@ -83,9 +74,6 @@ class Neo4jGraph:
         valid_to=str(claim.valid_to) if claim.valid_to else None
         )
 
-    # ------------------------------------------------
-    # EVIDENCE
-    # ------------------------------------------------
     def insert_evidence(self, tx, claim, artifact_id, message_id):
 
         claim_id = generate_claim_id(claim)
@@ -113,9 +101,6 @@ class Neo4jGraph:
         char_end=claim.evidence.char_end
         )
 
-    # ------------------------------------------------
-    # FULL INSERT
-    # ------------------------------------------------
     def insert_full(self, extracted_output, artifact_id, subject, sender, timestamp, message_id):
 
         with self.driver.session() as session:

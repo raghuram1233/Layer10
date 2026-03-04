@@ -19,7 +19,6 @@ def load_emails(csv_path: str):
     df = pd.read_csv(csv_path)
     df.fillna("", inplace=True)
 
-    # Normalize column names
     df.columns = [c.lower() for c in df.columns]
 
     if "message" in df.columns:
@@ -34,9 +33,6 @@ def normalize_email_timestamp(date_str):
     return dt.astimezone(pytz.UTC)
 
 def clean_body(body: str):
-    """
-    Remove quoted blocks and forwarded sections
-    """
     lines = body.split("\n")
     cleaned = []
     for line in lines:
@@ -110,11 +106,10 @@ def extract_structured(email_row):
         print("Invalid JSON from LLM")
         return None, None, None
 
-    # 🔹 Defensive cleaning + normalization
     cleaned_claims = []
 
     sender_normalized = sender.lower().strip()
-    email_date = date  # already normalized UTC string
+    email_date = date
 
     ALLOWED_TYPES = {
         "MeetingPlan",
@@ -129,15 +124,12 @@ def extract_structured(email_row):
 
     for claim in data.get("claims", []):
 
-        # Skip invalid types
         if claim.get("type") not in ALLOWED_TYPES:
             continue
 
-        # Drop Misc completely
         if claim.get("type") == "Misc":
             continue
 
-        # Default subject → sender
         if not claim.get("subject"):
             claim["subject"] = sender_normalized
         else:
@@ -146,26 +138,19 @@ def extract_structured(email_row):
             else:
                 claim["subject"] = sender_normalized
 
-        # Default event_time → email timestamp
         if not claim.get("event_time"):
             claim["event_time"] = email_date
 
-        # Default valid_from → event_time
         if not claim.get("valid_from"):
             claim["valid_from"] = claim["event_time"]
 
-        # Require evidence
         if not claim.get("evidence"):
             continue
 
-        # -------------------------------------------------
-        # Improve MeetingPlan object selection
-        # -------------------------------------------------
         if claim.get("type") == "MeetingPlan":
 
             obj = claim.get("object")
 
-            # Weak object (just person name)
             if obj and "@" not in obj and len(obj.split()) <= 2:
 
                 quote_original = claim["evidence"]["quote"]

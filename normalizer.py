@@ -39,20 +39,16 @@ def deduplicate_entities(entities: List[Entity]) -> List[Entity]:
             else:
                 existing = name_map[normalized_name]
 
-                # Prefer one with email (even if missing earlier)
                 if entity.email and not existing.email:
                     name_map[normalized_name] = entity
 
-    # Combine results
     deduped = list(email_map.values())
 
-    # Add name-only entities that don't conflict with email ones
     for name, entity in name_map.items():
 
         if entity.email:
             continue
 
-        # Skip if name already exists in email_map
         if any(normalize_string(e.name) == name for e in deduped):
             continue
 
@@ -76,21 +72,18 @@ def normalize_email_timestamp(date_str):
 def verify_and_fix_evidence(body: str, claim):
     quote = claim.evidence.quote
 
-    # If exact match works, keep offsets
     try:
         if body[claim.evidence.char_start:claim.evidence.char_end] == quote:
             return True
     except:
         pass
 
-    # Try to find quote in body
     idx = body.find(quote)
     if idx != -1:
         claim.evidence.char_start = idx
         claim.evidence.char_end = idx + len(quote)
         return True
 
-    # Try stripped version
     idx = body.find(quote.strip())
     if idx != -1:
         claim.evidence.quote = quote.strip()

@@ -10,9 +10,6 @@ PROGRESS_FILE = "progress.json"
 graph = Neo4jGraph("neo4j://127.0.0.1:7687", "neo4j", "asdfghjkl")
 df = load_emails(CSV_PATH)
 
-# -------------------------------------------------------
-# Load Progress
-# -------------------------------------------------------
 if os.path.exists(PROGRESS_FILE):
     with open(PROGRESS_FILE, "r") as f:
         progress_data = json.load(f)
@@ -22,9 +19,6 @@ else:
 
 print(f"Resuming from row index: {start_index}")
 
-# -------------------------------------------------------
-# Main Loop (Resume-Safe)
-# -------------------------------------------------------
 for idx in range(start_index, len(df)):
 
     row = df.iloc[idx]
@@ -33,7 +27,6 @@ for idx in range(start_index, len(df)):
         result, cleaned_body, timestamp_utc = extract_structured(row)
 
         if not result:
-            # Save progress even if nothing extracted
             with open(PROGRESS_FILE, "w") as f:
                 json.dump({"last_index": idx + 1}, f)
             continue
@@ -57,9 +50,6 @@ for idx in range(start_index, len(df)):
             message_id
         )
 
-        # -------------------------------------------------------
-        # SAVE PROGRESS AFTER SUCCESS
-        # -------------------------------------------------------
         with open(PROGRESS_FILE, "w") as f:
             json.dump({"last_index": idx + 1}, f)
 
