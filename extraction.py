@@ -98,13 +98,13 @@ def extract_structured(email_row):
     print(raw_output)
 
     if raw_output is None:
-        return None, None, None
+        return None, None, None, None
 
     try:
         data = json.loads(raw_output)
     except:
         print("Invalid JSON from LLM")
-        return None, None, None
+        return None, None, None ,None
 
     cleaned_claims = []
 
@@ -173,10 +173,10 @@ def extract_structured(email_row):
     try:
         parsed = ExtractedOutput(**data)
         parsed.entities = deduplicate_entities(parsed.entities)
-        return parsed, cleaned_body, date
+        return parsed, cleaned_body, date ,sender
     except Exception as e:
         print("Validation failed after cleaning:", e)
-        return None, None, None
+        return None, None, None ,None
 
 def parse_raw_email(raw_text):
     msg = Parser(policy=policy.default).parsestr(raw_text)

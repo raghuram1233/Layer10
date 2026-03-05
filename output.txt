@@ -1,0 +1,3251 @@
+Resuming from row index: 7000
+subject:FW: Positions
+sender:john.arnold@enron.com
+date:2001-11-02 18:42:16+00:00
+body:can you confirm when we get it?
+
+ -----Original Message-----
+From: 	kdavis@manfinancial.com@ENRON  
+Sent:	Friday, November 02, 2001 12:30 PM
+To:	jarnold@enron.com
+Cc:	Wesner-Soong, Sarah; Deffner, Joseph
+Subject:	RE: Positions
+
+The money is en route NOW....
+
+Thanks for all your help...
+
+Kevin
+
+>  -----Original Message-----
+> From: 	Davis, Kevin (LDN Int)
+> Sent:	Friday, November 02, 2001 4:10 PM
+> To:	'jarnold@enron.com'
+> Cc:	'sarah.wesner@enron.com'; 'joseph.deffner@enron.com'
+> Subject:	Positions
+>
+> Dear John
+>
+> In place of the original transfer of options that we sent you yesterday, I
+> propose the following transfer instead. You will note that it includes no
+> options at all.
+>
+> short 1660 May 2002 futures
+>
+> Please understand that this entire affair is making me as uncomfortable as
+> it is clearly making you.
+>
+> Kind regards
+> Kevin R Davis
+cleaned body:can you confirm when we get it?
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    }
+  ],
+  "claims": [
+    {
+      "type": "MeetingPlan",
+      "subject": "John Arnold",
+      "object": "confirmation of when we get it",
+      "event_time": "2001-11-02 18:42:16+00:00",
+      "confidence": 0.75,
+      "evidence": {
+        "quote": "can you confirm when we get it?",
+        "char_start": 0,
+        "char_end": 34
+      }
+    }
+  ]
+}
+Processed row 7000
+subject:RE: You are a bad bad boy!
+sender:john.arnold@enron.com
+date:2001-11-02 20:57:16+00:00
+body:I thought I had pulled one over you...
+
+I don't envy your job.  The trade guys do a good job of ganging up on you.  
+
+ -----Original Message-----
+From: 	"Collins, Bo" <BCollins@NYMEX.com>@ENRON  
+Sent:	Friday, November 02, 2001 1:17 PM
+To:	Arnold, John
+Subject:	You are a bad bad boy!
+
+Don't make me pull tapes on whether you understood our fee...j.a. Always
+understands.  Happy to help you guys anyways (I know you'll thank me later)
+
+J. Robert Collins
+BCollins@NYMEX.com
+--------------------------
+Sent from my BlackBerry
+cleaned body:I thought I had pulled one over you...
+
+I don't envy your job.  The trade guys do a good job of ganging up on you.  
+
+-------------------------------------------------
+{
+  "entities": [],
+  "claims": []
+}
+Processed row 7001
+subject:
+sender:john.arnold@enron.com
+date:2001-11-02 21:56:28+00:00
+body:ready any time you are
+cleaned body:ready any time you are
+-------------------------------------------------
+{"entities": [],
+"claims": [
+{
+"type": "MeetingPlan",
+"subject": "john.arnold@enron.com",
+"object": "meeting scheduling",
+"event_time": "2001-11-02 21:56:28+00:00",
+"valid_from": null,
+"valid_to": null,
+"confidence": 0.75,
+"evidence": {
+"quote": "ready any time you are",
+"char_start": 1,
+"char_end": 23
+}
+}
+]
+}
+Processed row 7002
+subject:RE: EDF margin line
+sender:john.arnold@enron.com
+date:2001-11-05 18:00:21+00:00
+body:according to whom?
+
+ -----Original Message-----
+From: 	Wesner-Soong, Sarah  
+Sent:	Monday, November 05, 2001 10:52 AM
+To:	Arnold, John; Quigley, Dutch; Warwick, Todd; Whiting, Greg; Gosnell, Gerri
+Cc:	Shackleton, Sara
+Subject:	EDF margin line
+
+EDF is terminating its line with us today.  Sarah
+cleaned body:according to whom?
+
+-------------------------------------------------
+{
+  "entities": [],
+  "claims": []
+}
+Processed row 7003
+subject:RE: $25 million loan from EDf
+sender:john.arnold@enron.com
+date:2001-11-06 19:46:13+00:00
+body:we have until thursday i believe
+
+ -----Original Message-----
+From: 	Wesner-Soong, Sarah  
+Sent:	Tuesday, November 06, 2001 1:07 PM
+To:	Arnold, John
+Subject:	$25 million loan from EDf
+
+We are going to repay their loan tomorrow based on the notice we received from them that they were cancelling their line to us as of 11/5/2001.
+cleaned body:we have until thursday i believe
+
+-------------------------------------------------
+{
+  "entities": [],
+  "claims": [
+    {
+      "type": "MeetingPlan",
+      "subject": "john.arnold@enron.com",
+      "object": "discussion about deadline for $25 million loan from EDf",
+      "event_time": "2001-11-06 19:46:13+00:00",
+      "valid_from": "2001-11-08 00:00:00",
+      "confidence": 0.75,
+      "evidence": {
+        "quote": "we have until thursday i believe",
+        "char_start": 0,
+        "char_end": 21
+      }
+    }
+  ]
+}
+Processed row 7004
+subject:RE: $25 million loan from EDf
+sender:john.arnold@enron.com
+date:2001-11-06 19:51:12+00:00
+body:if they demand this on thursday, i'm going to put their nat gas operation out of business.
+
+ -----Original Message-----
+From: 	Wesner-Soong, Sarah  
+Sent:	Tuesday, November 06, 2001 1:49 PM
+To:	Arnold, John
+Subject:	RE: $25 million loan from EDf
+
+Yes, we can wait until Thursday.  
+
+ -----Original Message-----
+From: 	Arnold, John  
+Sent:	Tuesday, November 06, 2001 1:46 PM
+To:	Wesner-Soong, Sarah
+Subject:	RE: $25 million loan from EDf
+
+we have until thursday i believe
+
+ -----Original Message-----
+From: 	Wesner-Soong, Sarah  
+Sent:	Tuesday, November 06, 2001 1:07 PM
+To:	Arnold, John
+Subject:	$25 million loan from EDf
+
+We are going to repay their loan tomorrow based on the notice we received from them that they were cancelling their line to us as of 11/5/2001.
+cleaned body:if they demand this on thursday, i'm going to put their nat gas operation out of business.
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    }
+  ],
+  "claims": [
+    {
+      "type": "Intent",
+      "subject": "John Arnold",
+      "object": "put their nat gas operation out of business",
+      "event_time": "2001-11-06 19:51:12+00:00",
+      "valid_from": null,
+      "valid_to": null,
+      "confidence": 0.85,
+      "evidence": {
+        "quote": "if they demand this on thursday, i'm going to put their nat gas operation out of business.",
+        "char_start": 13,
+        "char_end": 79
+      }
+    }
+  ]
+}
+Processed row 7005
+subject:RE: cheer up...
+sender:john.arnold@enron.com
+date:2001-11-06 19:59:46+00:00
+body:i was just thinking i should invite you to come over tonight.  wanna come?
+
+ -----Original Message-----
+From: 	"White, J. (Jennifer)" <Jennifer.White@OceanEnergy.com>@ENRON  
+Sent:	Tuesday, November 06, 2001 1:55 PM
+To:	Arnold, John
+Subject:	cheer up...
+
+I just know you could use a vacation.  Is there any chance I could talk you
+into going to Miami the weekend after Thanksgiving?  It's guaranteed to be a
+good time.
+
+I plan to be home tonight, and it would be NICE to hear from you.
+Jen
+
+-----Original Message-----
+From: Jennifer Brugh [mailto:jmb@triadresources.com]
+Sent: Monday, November 05, 2001 3:11 PM
+To: Jennifer Brugh (E-mail)
+Subject: SSHHHHH
+
+
+Hi everyone,
+
+Here is the scoop....it's Paula's birthday on December 1 and we are
+celebrating South Beach style and would love to have you all there to
+celebrate with us!!
+
+Let me know if you can make it and keep this a secret!
+
+Jenn
+
+
+The information contained in this communication is confidential and
+proprietary information intended only for the individual or entity to whom
+it is addressed.  Any unauthorized use, distribution, copying, or disclosure
+of this communication is strictly prohibited.  If you have received this
+communication in error, please contact the sender immediately.  If you
+believe this communication is inappropriate or offensive, please contact
+Ocean Energy`s Human Resources Department.
+
+cleaned body:i was just thinking i should invite you to come over tonight.  wanna come?
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "john.arnold",
+      "email": "john.arnold@enron.com"
+    },
+    {
+      "type": "Person",
+      "name": "you",
+      "aliases": ["you"]
+    }
+  ],
+  "claims": [
+    {
+      "type": "MeetingPlan",
+      "subject": "john.arnold",
+      "object": "invitation to come over tonight",
+      "event_time": "2001-11-06 19:59:46+00:00",
+      "valid_from": null,
+      "confidence": 0.85,
+      "evidence": {
+        "quote": "i was just thinking i should invite you to come over tonight.",
+        "char_start": 12,
+        "char_end": 67
+      }
+    }
+  ]
+}
+Processed row 7006
+subject:Re: March 2001/1Q 2001 Reporting Package
+sender:john.arnold@enron.com
+date:2001-05-01 06:13:00+00:00
+body:would like to meet to review to make sure i understand.  may only take a couple minutes.  are you free at 330 on tuesday?
+
+
+From:	Edie Leschber/ENRON@enronXgate on 04/30/2001 10:28 AM
+To:	John Arnold/HOU/ECT@ECT
+cc:	 
+Subject:	March 2001/1Q 2001 Reporting Package
+
+John,
+I have the reporting package for March 2001 and 1Q 2001 for the Financial Team for you.
+Would you like to meet to review or would you prefer that I just deliver it to you for your review?
+
+Thank you,
+Edie Leschber
+X30669
+
+
+cleaned body:would like to meet to review to make sure i understand.  may only take a couple minutes.  are you free at 330 on tuesday?
+
+
+From:	Edie Leschber/ENRON@enronXgate on 04/30/2001 10:28 AM
+To:	John Arnold/HOU/ECT@ECT
+cc:	 
+Subject:	March 2001/1Q 2001 Reporting Package
+
+John,
+I have the reporting package for March 2001 and 1Q 2001 for the Financial Team for you.
+Would you like to meet to review or would you prefer that I just deliver it to you for your review?
+
+Thank you,
+Edie Leschber
+X30669
+
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    },
+    {
+      "type": "Person",
+      "name": "Edie Leschber",
+      "aliases": ["X30669"]
+    }
+  ],
+  "claims": [
+    {
+      "type": "MeetingPlan",
+      "subject": "Edie Leschber",
+      "object": "review of the reporting package for March 2001 and 1Q 2001",
+      "event_time": "2001-05-01 06:13:00",
+      "valid_from": null,
+      "confidence": 0.9,
+      "evidence": {
+        "quote": "would like to meet to review",
+        "char_start": 24,
+        "char_end": 51
+      }
+    }
+  ]
+}
+Processed row 7007
+subject:RE: $25 million loan from EDf
+sender:john.arnold@enron.com
+date:2001-11-06 20:13:31+00:00
+body:how about 4:00?
+
+ -----Original Message-----
+From: 	Wesner-Soong, Sarah  
+Sent:	Tuesday, November 06, 2001 2:09 PM
+To:	Arnold, John
+Subject:	RE: $25 million loan from EDf
+
+Do you have a second?  I would like to come up there and make sure I understand clearly what you are talking about.  Hey, I might want to short the stock if it's publicly traded.   Sarah
+
+ -----Original Message-----
+From: 	Arnold, John  
+Sent:	Tuesday, November 06, 2001 1:51 PM
+To:	Wesner-Soong, Sarah
+Subject:	RE: $25 million loan from EDf
+
+if they demand this on thursday, i'm going to put their nat gas operation out of business.
+
+ -----Original Message-----
+From: 	Wesner-Soong, Sarah  
+Sent:	Tuesday, November 06, 2001 1:49 PM
+To:	Arnold, John
+Subject:	RE: $25 million loan from EDf
+
+Yes, we can wait until Thursday.  
+
+ -----Original Message-----
+From: 	Arnold, John  
+Sent:	Tuesday, November 06, 2001 1:46 PM
+To:	Wesner-Soong, Sarah
+Subject:	RE: $25 million loan from EDf
+
+we have until thursday i believe
+
+ -----Original Message-----
+From: 	Wesner-Soong, Sarah  
+Sent:	Tuesday, November 06, 2001 1:07 PM
+To:	Arnold, John
+Subject:	$25 million loan from EDf
+
+We are going to repay their loan tomorrow based on the notice we received from them that they were cancelling their line to us as of 11/5/2001.
+cleaned body:how about 4:00?
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    }
+  ],
+  "claims": [
+    {
+      "type": "MeetingPlan",
+      "subject": "John Arnold",
+      "object": "meeting scheduling",
+      "event_time": "2001-11-06T20:13:31",
+      "confidence": 0.75,
+      "evidence": {
+        "quote": "how about 4:00?",
+        "char_start": 18,
+        "char_end": 26
+      }
+    }
+  ]
+}
+Processed row 7008
+subject:RE: Nymex Status
+sender:john.arnold@enron.com
+date:2001-11-07 14:29:49+00:00
+body:sure
+
+-----Original Message-----
+From: Shults, Bob 
+Sent: Wednesday, November 07, 2001 6:33 AM
+To: Arnold, John
+Subject: RE: Nymex Status
+
+
+Yes.  Want me to come to your desk?
+
+-----Original Message-----
+From: Arnold, John 
+Sent: Tuesday, November 06, 2001 9:19 PM
+To: Shults, Bob
+Subject: RE: Nymex Status
+
+
+are you free around 430 wed to discuss?
+
+-----Original Message----- 
+From: Shults, Bob 
+Sent: Tue 11/6/2001 3:21 PM 
+To: Arnold, John 
+Cc: 
+Subject: Nymex Status
+
+
+
+John, 
+
+I met with Bo last Thurs and continued the discussion today with Bo, David Keller (Nymex CTO), David Salomon (Nymex), Brad Richter and Jay Webb.  Nymex indicated that they would like to move ahead very quickly on getting a price posting arrangement with them on Access where they will be showing prices all day including the OTC products.  Once this is complete they would also like to contemplate an arrangement on a Phase 2 technology sale with them.  They are currently scoping our the Phase II requirements.
+
+Nymex does not have the resources to build the API (interface with EnronOnline) and would like us to do the development.  This type of arrangement requires the desk to make some decisions:
+
+Are we willing to post numbers on Access electronically and have the transaction occur on Access?  This will give us the risk of being double hit. 
+Are we willing to dedicate technology resources to this effort (and away from other EnronOnline priorities) and will the desk get enough benefits to justify the opportunity costs? 
+What would it take for you to post numbers in this fashion (fees, preferential fills, etc).  You have the original specialist proposal we sent to them.
+
+
+We indicated to Bo that we would get an answer on this and call in the next couple of days.  If we can answer these questions, Jay will have someone look at the Access code and determine the cost to us (development time).
+
+We will also be meeting with Nymex next Wed to talk about Phase II.  We think that we can structure a transaction that would include an Access Price Posting in the short term, Specialist role and an obligation to look at our Phase II proposal.  If we do not get a firm commitment on Phase II within a specified period we can review our specialist role and ask them to pay for the API we built to access.
+
+Please call me to discuss at 713 853-0397.  
+
+  
+
+Bob Shults 
+EnronOnline LLC 
+Houston, Texas 77002-7361 
+713 853-0397 
+713 825-6372 cell 
+713 646-2126 
+bob.shults@enron.com 
+cleaned body:sure
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    }
+  ],
+  "claims": []
+}
+Processed row 7009
+subject:RE: BNP PARIBAS Commodity Futures Weekly AGA Survey
+sender:john.arnold@enron.com
+date:2001-11-07 14:30:10+00:00
+body:-4
+
+ -----Original Message-----
+From: 	daryl.dworkin@americas.bnpparibas.com@ENRON  
+Sent:	Wednesday, November 07, 2001 7:42 AM
+To:	daryl.dworkin@americas.bnpparibas.com
+Subject:	BNP PARIBAS Commodity Futures Weekly AGA Survey
+
+
+
+Good Morning,
+
+Just a reminder to get your AGA estimates in by Noon EST (11:00 CST).
+
+Last Year      +36
+Last Week      +23
+
+
+Thank You,
+Daryl Dworkin
+BNP PARIBAS Commodity Futures, Inc.
+
+
+
+
+
+_____________________________________________________________________________________________________________________________________
+
+Ce message et toutes les pieces jointes (ci-apres le "message") sont etablis a l'intention exclusive de ses destinataires et sont confidentiels. Si vous recevez ce message par erreur, merci de le detruire et d'en avertir immediatement l'expediteur.
+
+Toute utilisation de ce message non conforme a sa destination, toute diffusion ou toute publication, totale ou partielle, est interdite, sauf autorisation expresse.
+
+L'internet ne permettant pas d'assurer l'integrite de ce message, BNP PARIBAS (et ses filiales) decline(nt) toute responsabilite au titre de ce message, dans l'hypothese ou il aurait ete modifie.
+	----------------------------------------------------------------------------------
+This message and any attachments (the "message") are intended solely for the addressees and are confidential. If you receive this message in error, please delete it and immediately notify the sender.
+
+Any use not in accord with its purpose, any dissemination or disclosure, either whole or partial, is prohibited except formal approval.
+
+The internet can not guarantee the integrity of this message. BNP PARIBAS (and its subsidiaries) shall (will) not therefore be liable for the message if modified.
+_____________________________________________________________________________________________________________________________________
+cleaned body:-4
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    }
+  ],
+  "claims": []
+}
+Processed row 7010
+subject:RE: 8:30 am trade count
+sender:john.arnold@enron.com
+date:2001-11-07 16:19:38+00:00
+body:fyi : Having more and more counterparties that will only deal on one side of my market.
+
+-----Original Message-----
+From: Kitchen, Louise 
+Sent: Wednesday, November 07, 2001 10:14 AM
+To: Arnold, John; 'Hunter.shivley@enron.com'; 'Scott.neil@enron.com';
+'Tom.martin@enron.com'; Grigsby, Mike
+Subject: Fw: 8:30 am trade count
+
+
+Note aquila.
+--------------------------
+Sent from my BlackBerry Wireless Handheld
+
+-----Original Message-----
+From: Webb, Jay <Jay.Webb@ENRON.com>
+To: Kitchen, Louise <Louise.Kitchen@ENRON.com>
+Sent: Wed Nov 07 08:34:43 2001
+Subject: 8:30 am trade count
+
+
+Hi Louise,
+
+We are having a typical trading pace so far today.  It is too early to tell if any counterparty is really cutting back.  Like yesterday, however, Aquila is buying longer dated physical gas and selling spot gas; so once again they are a big net buyer.
+
+Trade counts, by 8:30 am, since October 1:
+
+TRADE DATE	TRADE CNT	
+11/7/2001	2314	
+11/6/2001	2504	
+11/5/2001	2340	
+11/4/2001	7	
+11/3/2001	18	
+11/2/2001	2288	
+11/1/2001	2484	
+10/31/2001	2374	
+10/30/2001	2021	
+10/29/2001	2259	
+10/27/2001	7	
+10/26/2001	2395	
+10/25/2001	2875	
+10/24/2001	2292	
+10/23/2001	2637	
+10/22/2001	2303	
+10/21/2001	15	
+10/20/2001	1	
+10/19/2001	2624	
+10/18/2001	2192	
+10/17/2001	2313	
+10/16/2001	2101	
+10/15/2001	1710	
+10/14/2001	8	
+10/13/2001	7	
+10/12/2001	1906	
+10/11/2001	1999	
+10/10/2001	1786	
+10/9/2001	1853	
+10/8/2001	1824	
+10/7/2001	3	
+10/6/2001	5	
+10/5/2001	1939	
+10/4/2001	2365	
+10/3/2001	1935	
+10/2/2001	1641	
+10/1/2001	1876	
+cleaned body:fyi : Having more and more counterparties that will only deal on one side of my market.
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    }
+  ],
+  "claims": [
+    {
+      "type": "Intent",
+      "subject": "John Arnold",
+      "object": "Having more and more counterparties that will only deal on one side of my market.",
+      "event_time": "2001-11-07 16:19:38+00:00",
+      "confidence": 0.85,
+      "evidence": {
+        "quote": "Having more and more counterparties that will only deal on one side of my market.",
+        "char_start": 6,
+        "char_end": 123
+      }
+    }
+  ]
+}
+Processed row 7011
+subject:FW: Help!
+sender:john.arnold@enron.com
+date:2001-11-07 16:47:59+00:00
+body:
+
+ -----Original Message-----
+From: 	"sarah aldrich" <owlsa@hotmail.com>@ENRON  
+Sent:	Wednesday, November 07, 2001 10:43 AM
+To:	jarnold@enron.com
+Subject:	Help!
+
+Jeff,
+My mom said that you would email me a few questions that are standard in an
+interview.  I was wondering if you could do that for me please?  I am very
+nervous and need all of the help I can get.  Thanks for telling mom that I
+needed a suit.  I told her but she didn't believe me.  If you have any other
+advice feel free to give it to me.  I have a project that I did in a problem
+solving class that my teacher told me to take into my job interviews.
+Should I take it to my internship interviews?  The project was looking at
+statistics of accidents that occured in a certain hospital, evaluating the
+correlations over a few years, making suggestions on how to improve and
+explaining why certain things were happening.  I am not sure if that will
+help in an internship.  What department in a company would that have to do
+with?  I think I might be interested in that.
+Thanks,
+Sarah
+
+_________________________________________________________________
+Get your FREE download of MSN Explorer at http://explorer.msn.com/intl.asp
+cleaned body:
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    }
+  ],
+  "claims": [
+    {
+      "type": "MeetingPlan",
+      "subject": "John Arnold",
+      "object": "FW: Help! meeting scheduling",
+      "event_time": "2001-11-07T16:47:59",
+      "confidence": 0.75,
+      "evidence": {
+        "quote": "FW: Help!",
+        "char_start": 0,
+        "char_end": 3
+      }
+    }
+  ]
+}
+Processed row 7012
+subject:FW: Enron Mentions
+sender:john.arnold@enron.com
+date:2001-11-07 22:14:30+00:00
+body:
+
+ -----Original Message-----
+From: 	Schmidt, Ann M.  
+Sent:	Wednesday, November 07, 2001 2:09 PM
+Subject:	Enron Mentions
+
+S&P Lowers Enron Credit Linked Notes Trust Ratings; On Watch Neg
+PR Newswire, 11/07/01
+
+DJ CNBC's FABER REPORT: Enron/Dynegy Deal Talk
+Dow Jones, 11/07/01
+
+Enron in Talks With Dynegy That May Include Merger, CNBC Says
+Bloomberg, 11/07/01
+
+WSJ: Dynegy In Talks To Put About $2B Into Enron Now
+Dow Jones News Service, 11/07/01
+Enron Shares Fall on Concern About Finding Investors (Update2)
+Bloomberg, 11/07/01
+
+Enron Credit-Linked Note Ratings Reduced 6 Days Late (Update2)
+Bloomberg, 11/07/01
+
+Former SEC Chairman Levitt (Transcript of Interview)
+Bloomberg, 11/07/01
+
+USA: U.S. FERC watching Enron's impact on energy markets.
+Reuters English News Service, 11/07/01
+Apache Unwinds Most Gas Hedges; Cites Enron Uncertainty
+Dow Jones News Service, 11/07/01
+USA: Enron shares fall below $8 - set new nine-year low.
+Reuters English News Service, 11/07/01
+Enron's stock drops 25 percent
+Associated Press Newswires, 11/07/01
+Rabin & Peckel LLP Commences Class Action Against Enron Corporation and Certain of Its Officers and Directors, Alleging Violations of Federal Securities Laws
+Business Wire, 11/07/01
+
+Enron's power company in India calls off Singapore meeting after Indian lenders file lawsuit
+Associated Press Newswires, 11/07/01
+USA: El Paso says it does not expect Enron bankruptcy.
+Reuters English News Service, 11/07/01
+
+Energy traders are icing out Enron
+Shares trade at 9-year lows for 2nd straight day 
+CBS.MarketWatch.com, 11/07/01
+
+Legal Group Plans Suit to Void California Power Contracts
+Bloomberg, 11/07/01
+
+
+
+
+S&P Lowers Enron Credit Linked Notes Trust Ratings; On Watch Neg
+
+11/07/2001
+PR Newswire
+(Copyright (c) 2001, PR Newswire)
+
+NEW YORK, Nov. 7 /PRNewswire/ -- Standard & Poor's today lowered its ratings on Enron Credit Linked Notes Trusts' credit linked notes and placed them on CreditWatch with negative implications (see list). 
+The lowered ratings reflect the Nov. 1, 2001 rating action taken on Enron Corp., which was based on Standard & Poor's belief that Enron's plan to employ asset sales and other means to repair its damaged balance sheet will be insufficient to restore its long-term credit quality to the historical triple-'B'-plus level. The CreditWatch placements recognize the uncertainties that surround the company and its credit quality in the short run due to the possibility of further unanticipated developments in the capital markets.
+These synthetic issues utilize a credit default swap that references Enron's senior unsecured debt and therefore the rating on the credit-linked notes will reflect the current senior unsecured rating of Enron. OUTSTANDING RATINGS LOWERED AND PLACED ON CREDITWATCH NEGATIVE 
+Enron Credit Linked Notes Trust 
+US$500 million credit linked notes 
+Rating 
+To From 
+Notes BBB/Watch Neg BBB+ 
+Enron Credit Linked Notes Trust II 
+US$500 million credit linked notes 
+Rating 
+To From 
+Notes BBB/Watch Neg BBB+ 
+Enron Euro Credit Linked Notes Trust 
+EUR200 million credit linked notes 
+Rating 
+To From 
+Notes BBB/Watch Neg BBB+ 
+Enron Sterling Credit Linked Notes Trust 
+GBP125 million credit linked notes 
+Rating 
+To From 
+Notes BBB/Watch Neg BBB+
+
+
+/CONTACT: Mary Ryan, New York, +1-212-438-2090, or Frank J. Trick, New York, +1-212-438-1108, both for Standard & Poor's/ 11:47 EST 
+Copyright ? 2000 Dow Jones & Company, Inc. All Rights Reserved. 	
+
+DJ CNBC's FABER REPORT: Enron/Dynegy Deal Talk
+2001-11-07 14:56 (New York)
+
+
+  The following is a transcript of a report aired Wednesday by CNBC reporter
+David Faber: 
+ 
+  Enron is in discussions with Dynegy about a range of options that include a
+merger of the two companies. 
+
+  While such an outcome is only one of a number of options being discussed,
+sources close to the talks tell me such an outcome is being considered. 
+  Enron is trying to raise equity capital and restore confidence amid the
+complete collapse of its stock price. 
+
+  Today, the Houston-based energy trading concern's shares have fallen another
+25%, while its bonds, perhaps a better barometer of the market's concerns about
+credit quality, have shed roughly ten points. 
+
+  Enron will not comment. But sources close to the situation tell me the
+company continues to speak with a handful of private equity firms about an
+investment. Those talks are still in the early stages. 
+  Talks with Dynegy, a cross-town rival of Enron's that also markets and trades
+energy, have progressed at a faster pace. 
+
+  Dynegy is unlike Enron in that it owns more hard assets, many of which came
+along with the acquisition of Illnova, completed in 2000. 
+  While many potential acquirers have shied away from Enron due to continued
+concern about unknown liabilities the company may have, Dynegy is very familiar
+with its energy trading business. 
+
+  Dynegy is the number two player in the U.S. energy trading market and would
+clearly become the dominant player were it to merge with or acquire Enron. A
+Dynegy spokesman declined comment. 
+
+  While Dynegy has off-balance sheet financings that are similar to Enron's,
+those financings are not guaranteed by the parent. 
+  It is such guarantees that have concerned Enron investors along with a series
+of questionable investments. 
+
+  Given the massive decline in Enron's stock price, Dynegy now has a market
+value that is twice that of Enron. 
+
+  That decline in Enron's stock price would make any equity infusion heavily
+dilutive, if private equity firms were to choose to invest in Enron they would
+likely do so in the form of a security that converted to equity and paid a
+dividend. 
+
+  Still, because Enron now has a market value of only $5.3 billion, the roughly
+$2 billion it may want represents an enormous percentage of its overall equity
+value. 
+
+  Hence, discussion with Dynegy may have taken on the form of a merger, rather
+than a strategic investment. 
+ 
+
+
+Enron in Talks With Dynegy That May Include Merger, CNBC Says
+2001-11-07 13:39 (New York)
+
+
+     Houston, Nov. 7 (Bloomberg) -- Enron Corp. is talking with
+rival energy company Dynegy Inc. about a number of options,
+including merger, to help it raise equity capital and restore
+confidence, financial news network CNBC reported.
+     Spokesmen for Dynegy and Enron declined to comment.
+
+
+
+WSJ: Dynegy In Talks To Put About $2B Into Enron Now
+By Robin Sidel
+
+11/07/2001
+Dow Jones News Service
+(Copyright (c) 2001, Dow Jones & Company, Inc.)
+
+Of The Wall Street Journal 
+
+NEW YORK -(Dow Jones)- Dynegy Inc. (DYN) is in advanced discussions to infuse about $2 billion into Enron Corp. (ENE) in a transaction that may lead to a full-blown merger between the two companies, sources familiar with the matter told The Wall Street Journal.
+A formal transaction could be unveiled as early as Thursday, these people said. The situation is very fluid and is subject to change, these people noted. 
+(This report and related background will be available at the Journals' Web site, WSJ.com.) 
+Enron has been rocked by last month's disclosure of a $1.2 billion reduction in its equity base partly tied to financial dealings with company partnerships headed by Enron's former chief financial officer. Last month, it reported a third-quarter loss of $618 million. The Securities and Exchange Commission has launched a formal investigation into the matter. Last week, Enron secured $1 billion in new credit lines, using gas-pipeline assets as collateral. 
+Enron needs the infusion in part because its previously announced plans to raise cash through the sale of power assets is going more slowly than expected. Mostly, though, it needs to restore its credibility with Wall Street at a time when its access to the financing markets is drying up. 
+Enron shares recently traded down $1.57, or 16%, at $8.10. -Robin Sidel; The Wall Street Journal; 212-274-7991
+
+Copyright ? 2000 Dow Jones & Company, Inc. All Rights Reserved. 	
+
+Enron Shares Fall on Concern About Finding Investors (Update2)
+2001-11-07 14:06 (New York)
+
+Enron Shares Fall on Concern About Finding Investors (Update2)
+
+     (Adds CNBC report on talks with Dynegy in fifth paragraph.)
+
+     Houston, Nov. 7 (Bloomberg) -- Enron Corp.'s shares fell as
+much as 28 percent, to their lowest level in more than a decade,
+amid reports that the No. 1 energy trader is struggling to find
+investors to help it out of a cash crunch.
+
+     Shares of Enron fell $1.17, or 12 percent, to $8.50 in
+midafternoon trading. The shares dropped to $7 earlier. At
+yesterday's close, they had fallen 88 percent this year.
+
+     Enron will have a hard time raising a large amount of cash in
+a short time, said Sean Egan, managing director of Egan-Jones
+Rating Co.
+
+     ``It takes time to sell assets, and many shrewd investors
+like Goldman Sachs might find it more profitable to just pluck off
+key employees rather than invest in Enron,'' Egan said.
+
+     The shares pared some of today's losses after CNBC reported
+that Enron is talking with rival Dynegy Inc. about options,
+including a merger. Both companies are based in Houston.
+
+     ``We don't comment on market rumors,'' Dynegy spokesman Steve
+Stengel said.
+
+     ``Enron does not comment on speculation on mergers and
+acquisitions,'' Enron spokesman Mark Palmer said.
+
+     Berkshire Hathaway Inc. Chairman Warren Buffett decided
+against investing in Enron because he wasn't willing to sign a
+confidentiality agreement that would keep him from trading Enron's
+debt, the New York Times reported today, citing an unidentified
+person close to the talks.
+
+     Other companies approached by Enron, including Clayton
+Dubilier & Rice, the Blackstone Group and Kohlberg Kravis Roberts
+& Co. have also shown little interest, the newspaper said.
+
+     The U.S. Securities and Exchange Commission is investigating
+Enron partnerships run by the company's former chief financial
+officer. The entities bought and sold Enron shares and assets,
+with trades costing Enron $35 million and $1.2 billion in lost
+shareholder equity. Enron ousted CFO Andrew Fastow last month.
+
+                         Rating Downgraded
+
+     Standard & Poor's today reduced its rating on Enron's credit-
+linked notes, just six days after the ratings company downgraded
+Enron's senior unsecured bonds. S&P cut four Enron credit-linked
+issues valued at about $1.36 billion combined to ``BBB'' from
+``BBB+'' and indicated it may lower the grades again.
+
+     Fearing that an Enron collapse might cripple the natural gas-
+derivatives market, oil and gas producer Apache Corp. said it
+backed out of most of its gas hedges, realizing a $70 million gain
+so far.
+
+     ``We have been unwinding our hedge positions because of
+uncertainty created by Enron's credit problems,'' Apache spokesman
+Bill Mintz said. The company now has only one position with Enron
+that it's trying to unwind.
+
+     The Apache news was reported earlier by the Times.
+
+                        `Fragile Business'
+
+     ``Their trading business is a very fragile business,'' Egan
+said. ``If partners on either side get concerned, trading volumes
+decline, which is what is happening now.''
+
+     Other companies mentioned in reports as possible buyers of
+all or part of Enron have denied an interest in the idea. General
+Electric Co. Chief Executive Officer Jeffrey Immelt told CNN today
+that ``Enron's really not on our list right now.'' BP Plc Chief
+Executive John Browne said ``no'' at a press conference in London
+yesterday when asked whether the London-based company would be
+interested in buying Enron or a stake in the company.
+
+     Among shares of other energy traders, Dynegy fell $1.70 to
+$34.30. Mirant Corp. fell 15 cents to $25.40. Williams Cos. fell 4
+cents to $28.97.
+
+--Margot Habiby in Houston, (713) 353-4872 
+
+
+Enron Credit-Linked Note Ratings Reduced 6 Days Late (Update2)
+2001-11-07 14:46 (New York)
+
+Enron Credit-Linked Note Ratings Reduced 6 Days Late (Update2)
+
+     (Adds background and stock price in fourth through sixth
+paragraphs.)
+
+     New York, Nov. 7 (Bloomberg) -- Standard & Poor's Corp.
+downgraded notes linked to Enron Corp.'s credit quality to match
+the No. 1 energy trader's credit rating six days after the ratings
+company reduced its corporate debt ratings.
+
+     S&P said it cut four Enron credit-linked notes, valued at
+$1.36 billion, to ``BBB'' from ``BBB+'', and indicated it may
+lower the grades again.
+
+     ``This isn't an additional downgrade and should have happened
+last week,'' said Todd Shipman, a director at the ratings company
+that follows the company. Last week Shipman downgraded Enron's
+long-term ratings to ``BBB'' from ``BBB+,'' and left them on watch
+for a further downgrade.
+
+     Enron shares today fell as much as 28 percent, to their
+lowest level in more than a decade, amid reports that the No. 1
+energy trader is struggling to find investors to help it out of a
+cash crunch.
+
+     Shares of Enron fell $1.17, or 12 percent, to $8.50 in mid-
+afternoon trading. The shares dropped to $7 earlier. At
+yesterday's close, they had fallen 88 percent this year.
+
+     The federal Securities and Exchange Commission is
+investigating Enron partnerships run by the company's former chief
+financial officer, Andrew Fastow, who was ousted last month. The
+entities bought and sold Enron shares and assets,
+with trades costing Enron $35 million and $1.2 billion in lost
+shareholder equity.
+
+                               Notes
+
+     Holders of the credit-linked notes, sold by Enron Euro CLN
+Trust, Enron Sterling CLN Trust, and Enron CLN Trust and Trust II,
+may have received a higher coupon than an Enron corporate
+obligation offers. The notes, which are obligations of the special
+purpose entities, are tied to specific credit events, such as a
+bankruptcy or Enron's failure to pay on obligations.
+
+     Proceeds from the notes were to be used to acquire the
+Trusts' initial investments, and buyers are to be paid interest
+from the proceeds of those certain assets, according to an
+offering memorandum. The Trusts can invest in securities with
+short-term ratings of at least ``A1'' from S&P and ``P1'' from
+Moody's Investors Service, as long as they mature before the
+maturity dates of the notes.
+
+     There are four notes, each divided into two offerings, some
+offered publicly and some privately sold. All the notes are
+scheduled to mature in August 2005 or May 2006 and were sold by a
+group of banks led by Salomon Smith Barney, a unit of Citigroup.
+
+     In the event of an Enron credit event, Citibank, which acted
+as a swap counter-party to the trusts, can take the trusts'
+investments in return for Enron debt obligations. The Enron debt
+is then liquidated by the trust, with the proceeds paid to the
+investors.
+
+     Neither Enron nor Citibank have direct obligations to the
+holders of the notes, according to an offering memorandum.
+
+     Enron's credit-linked notes utilize a credit-default swap
+that the trusts have with Citibank that references Enron's senior
+unsecured debt, so the rating on the credit-linked notes will
+reflect the senior unsecured rating, S&P said in a report.
+
+--Liz Goldenberg and Terence Flanagan in the New York 
+
+Former SEC Chairman Levitt (Transcript of Interview)
+2001-11-07 12:52 (New York)
+
+
+     ****THE FOLLOWING IS AN UNOFFICIAL TRANSCRIPT.****
+BLOOMBERG L.P. DOES NOT GUARANTEE THE ACCURACY OF THIS
+TRANSCRIPT.
+
+     New York, Nov. 7 (Bloomberg) -- The following is a
+transcript of a Bloomberg interview with Former Securities
+and Exchange Commission (SEC) Chairman Arthur Levitt.  The
+reporter is Dylan Ratigan.
+
+     RATIGAN:  As you've probably heard, Enron under
+investigation by the SEC, the SEC looking into partnerships
+run by their former CFO.  If you come into the Bloomberg
+with me, I want to show you what it's done to the stock
+price here over the course of the past month, month and a
+half.  You're talking about a move from a price in the mid
+40s, which was not that long ago, mind you, early mid-
+October, to a price that is now $9.67 a share.  This has
+absolutely decimated the company's stock price.  Arthur
+Levitt, the former chairman of the SEC, with us, looking,
+first of all, at what's going on with this company.
+
+     But, before I do that, let me say good morning to you.
+
+     LEVITT:  Good morning, Dylan.
+
+     RATIGAN:  Talk to me.
+
+     LEVITT:  You know, there are certain warning signs here
+that investors have to be careful of:  related party
+transactions.  Anytime you see a related party transaction,
+an investor should be very careful.  What they were doing,
+was they were simply setting up these partnerships to move
+off the balance sheet acquisitions and borrowings that would
+really have hurt the balance sheet and I think given
+investors a very different picture.
+
+     RATIGAN:  Well, let's just make it real clear to
+people, because they can easily get confused.  I'm a
+company.
+
+     LEVITT:  Yes.
+
+     RATIGAN:  .and I create - and I'm an executive of that
+company, and I create a partnership that has nothing to do
+with that company, legally, on paper.
+
+     LEVITT:  But all the risks and rewards still belong to
+the parent company.  The affect of this is the subsidiary
+borrows the money to make the acquisition from another
+partnership set up by the parent. This stays totally off the
+balance sheet of the parent company.  Why does this happen?
+
+     RATIGAN:  So, in other words, Company ABC exists, they
+set up Subsidiary 123.
+
+     LEVITT:  Yes.
+
+     RATIGAN:  Subsidiary company 123 borrows money from.
+
+     LEVITT:  To make an acquisition.
+
+     RATIGAN:  A bank?
+
+     LEVITT:  No.
+
+     RATIGAN:  They borrow money from who?
+
+     LEVITT:  They issue bonds.
+
+     RATIGAN:  OK.  They borrow money from the world.
+
+     LEVITT:  Yes.
+
+     RATIGAN:  . whoever wants to lend them money.
+
+     LEVITT:  Yes.
+
+     RATIGAN:  . they borrow money, they make an
+acquisition.  Now Subsidiary 123 down here has big debts
+that don't reflect upstairs on Company ABC?
+
+     LEVITT:  Precisely.
+
+     RATIGAN:  But ABC still gets to use the asset that was
+bought by 123?
+
+     LEVITT:  Yes.
+
+     RATIGAN:  OK.
+
+     LEVITT:  Exactly.  Now, how does it happen?  The
+accounting firm that handled this transaction, Arthur
+Andersen, received $25 million for an audit of the company -
+that's a huge amount - and $27 million for consulting
+services - another danger sign.  A lot of dough.  Those
+consulting services were to validate these transactions; $52
+million dollars went to the accountants.  The problem here
+is an audit committee was not doing its work.  If you look
+at Enron's statements - and how many times have we heard
+they were confusing?  It's the job of the auditing firm to
+see to it that it is not confusing.  That's the real
+problem.  Now, what can you do about it?
+
+     RATIGAN:  Tell me.
+
+     LEVITT:  I think, actually, the FASB, the independent
+standards setter, could put through a rule, which says.
+
+     RATIGAN:  And FASB is the Federal Accounting Standards
+Board.  They set the rules.
+
+     LEVITT:  Yes.  Located in Norwalk, Connecticut.  They
+could say, if a company sets up another legal entity, and
+the company retains all the risks and rewards of that
+entity, then the public company, that public company that
+set up these entities, must consolidate in the P&L, in the
+balance sheet, all of these transactions.
+
+     Now, how does that come about?  I think the SEC could
+urge the FASB to do this.  In 1990, the present chief
+accountant of the SEC called for that action to be taken
+place, but at that point, the then-chief accountant didn't
+support the move.
+
+     RATIGAN:  And this creates, in your mind, a rallying
+call to reiterate that request with more venom and more
+passion than before?
+
+     LEVITT:  I don't know about venom, but I.
+
+     RATIGAN:  But with passion.
+
+     LEVITT:  I certainly think that passion - I think this
+is clearly a call for better disclosure.
+
+     RATIGAN:  Fair enough.  I will see you next week, OK?
+
+     LEVITT:  Good.  Nice to see you.
+
+     RATIGAN:  You, too.
+
+     ***END OF TRANSCRIPT***
+
+
+USA: U.S. FERC watching Enron's impact on energy markets.
+
+11/07/2001
+Reuters English News Service
+(C) Reuters Limited 2001.
+
+WASHINGTON, Nov 7 (Reuters) - The Federal Energy Regulatory Commission is watching what effect Enron Corp.'s financial problems may have on interstate electricity and natural gas markets, FERC chairman Pat Wood said on Wednesday. 
+However, Wood said FERC does not have a direct role in the ongoing federal investigation of the company.
+"We're watching the impact that Enron or any other firm would have on the overall workings of the market, but we're not intervening where other agencies have jurisdiction," Wood told reporters during a briefing after the agency's regular meeting. 
+Enron, the nation's largest trader of natural gas and electricity, is under attack for failing to explain off-balance sheet transactions that led to a $1.2 billion write-down of shareholder equity. 
+The deals, conducted with partnerships run by ousted Chief Financial Officer Andrew Fastow, are under investigation by the U.S. Securities and Exchange Commission.
+
+Copyright ? 2000 Dow Jones & Company, Inc. All Rights Reserved. 	
+
+Apache Unwinds Most Gas Hedges; Cites Enron Uncertainty
+By Christina Cheddar
+Of DOW JONES NEWSWIRES
+
+11/07/2001
+Dow Jones News Service
+(Copyright (c) 2001, Dow Jones & Company, Inc.)
+
+NEW YORK -(Dow Jones)- Over the last few days, Apache Corp. (APA) has unwound nearly all of its hedges on natural-gas prices due to concerns about what would happen to the marketplace for energy derivatives if Enron Corp. (ENE) collapsed. 
+According to Tony Lentini, a spokesman for the Houston natural-gas producer, many of the hedges were established to lock in the value of acquisitions the company made.
+Apache unwound all but one hedge, a transaction that involved Enron and other parties, Lentini said. 
+Apache has a gain of about $70 million from the various transactions, but the company hasn't determined yet how the gain will be accounted for in its financial results, the spokesman said. 
+Apache has been an outspoken critic of the merchant energy trading because of the company's perception that the system is underregulated and creates excessive energy price volatility. 
+-Christina Cheddar, Dow Jones Newswires; 201-938-5166; christina.cheddar@dowjones.com
+
+Copyright ? 2000 Dow Jones & Company, Inc. All Rights Reserved. 	
+
+USA: Enron shares fall below $8 - set new nine-year low.
+
+11/07/2001
+Reuters English News Service
+(C) Reuters Limited 2001.
+
+NEW YORK, Nov 7 (Reuters) - Shares of Enron Corp. fell in a new round of selling on Wednesday that set new nine-year lows, amid concerns about the energy trading giant's ability to raise cash. 
+The company's stock slid $1.77, or 18.3 percent, to $7.90 in late morning trading on the New York Stock Exchange, diving below $8 for the first time since February 1992. The shares are down almost 77 percent since the company released its earnings results on Oct. 16, which set off the recent tumble.
+The issues that have plagued the Houston-based company over the past three weeks continue to weigh on it, according to Jeff Dietert, an analyst at Simmons and Co. 
+"It's a bit of a vicious cycle," he said. "The stock price declines, credit concerns go up, counterparties attempt to reduce their exposure and the earnings power of the company deteriorates." 
+He added that Enron needs to "get all its ducks in a row" so that it can meet with the holders of its stocks and bonds to discuss issues such as the company's capitalization and plans for strengthening its balance sheet. 
+Enron, the nation's largest trader of natural gas and electricity, is under attack for failing to explain off-balance sheet transactions that led to a $1.2 billion write-down of shareholder equity. 
+The deals, conducted with partnerships run by ousted Chief Financial Officer Andrew Fastow, are under investigation by the U.S. Securities and Exchange Commission.
+
+Copyright ? 2000 Dow Jones & Company, Inc. All Rights Reserved. 	
+
+
+
+Enron's stock drops 25 percent
+
+11/07/2001
+Associated Press Newswires
+Copyright 2001. The Associated Press. All Rights Reserved.
+
+HOUSTON (AP) - Enron Corp.'s stock price continued its free fall Wednesday as shares fell 25 percent to a new 10-year low amid reports the company was having trouble attracting a large investor to allay worries about its financial health and restore confidence. 
+Shares of the largest U.S. natural gas and power marketer dropped dlrs 2.41 to dlrs 7.26 in midday trading Wednesday on the New York Stock Exchange.
+Enron has been rebuffed by more than a dozen buyout firms as well as Warren Buffett's Berkshire Hathaway, The New York Times reported Wednesday, citing a person close to the talks. 
+Houston-based Enron's stock is off more than 79 percent since Oct. 16, when the company said shareholder equity had been reduced by dlrs 1.2 billion, in part due to partnerships managed by Enron's former chief financial officer, Andrew Fastow. 
+At the same time, reported a dlrs 618 million third quarter loss last month, dragged down by a one-time charge of dlrs 1.01 billion attributed to various losses. Fastow was ousted a week later. 
+The company's financial stability was further weakened after the Securities and Exchange Commission began an inquiry, which was upgraded to a formal investigation, of the partnerships and possible conflicts of interest resulting from them. 
+On Tuesday, Jeff Skilling, Enron's former chief executive officer, testified before the SEC in Washington D.C. 
+Enron's woes have prompted speculation about a possible takeover of the company. Some of the potential buyers that have been mentioned include General Electric's GE Capital unit and Royal Dutch Shell. 
+GE Capital has not ruled out an investment, the Times said, citing a source close to the talks. 
+Enron has cashed in about dlrs 3 billion in revolving credit it has with various banks to shore up investor confidence. 
+Last week, Enron secured dlrs 1 billion in new financing, using some of its natural gas and pipeline assets as collateral. 
+Enron officials said Tuesday seeking additional financing is one of the many options the company is exploring to firm up investor and market confidence. 
+Meanwhile, Standard & Poor's Corp. on Wednesday lowered its ratings on some of Enron's credit linked notes and placed them on CreditWatch. S-and-P said Enron's plan to repair its damaged balance sheet through asset sales and other means will be insufficient. 
+Moody's Investors Service and Fitch Inc. have also downgraded the company's credit ratings. 
+Last week, Enron announced it created a special committee headed by University of Texas law school dean William Powers to respond to the SEC investigation. Powers also was elected to Enron's board of directors.
+
+Copyright ? 2000 Dow Jones & Company, Inc. All Rights Reserved. 	
+
+Rabin & Peckel LLP Commences Class Action Against Enron Corporation and Certain of Its Officers and Directors, Alleging Violations of Federal Securities Laws
+
+11/07/2001
+Business Wire
+(Copyright (c) 2001, Business Wire)
+
+NEW YORK--(BUSINESS WIRE)--Nov. 7, 2001--A class action complaint has been filed in the United States District Court for the Southern District of Texas on behalf of all persons or entities who purchased Enron Corporation ("Enron" or the "Company") (NYSE: ENE) common stock between January 18, 2000 and October 17, 2001, inclusive (the "Class Period"). The complaint was brought against defendants Enron, Kenneth Lay, Jeffrey K. Skilling and Andrew Fastow. The case is numbered H-01-3736. The Honorable Melinda Harmon is the Judge presiding over the case. 
+The Complaint alleges that defendants violated Section 10(b) and 20(a) of the Securities and Exchange Act of 1934 by issuing a series of material misrepresentations to the market between January 18, 2000 and October 17, 2001, thereby artificially inflating the price of Enron common stock. Specifically, the Complaint alleges that Enron issued a series of statements concerning its business, financial results and operations which failed to disclose (i) that the Company's Broadband Services Division was experiencing declining demand for bandwidth and the Company's efforts to create a trading market for bandwidth were not meeting with success as many of the market participants were not creditworthy; (ii) that the Company's operating results were materially overstated as a result of the Company failing to timely write-down the value of its investments with certain limited partnerships which were managed by the Company's chief financial officer; and (iii) that Enron was failing to write-down impaired assets on a timely basis in accordance with Generally Accepted Accounting Principles ("GAAP"). During the Class Period, Enron insiders disposed of over $73 million of their personally-held Enron common stock to unsuspecting investors.
+On October 16, 2001, Enron surprised the market by announcing that the Company was taking non-recurring charges of $1.01 billion after-tax, or ($1.11) loss per diluted share, in the third quarter of 2001, the period ending September 30, 2001. Subsequently, Enron revealed that a material portion of the charge was related to the unwinding of investments with certain limited partnerships which were controlled by Enron's chief financial officer and that the Company would be eliminating more than $1 billion in shareholder equity as a result of its unwinding of the investments. When this news hit the market, the price of Enron common stock dropped significantly. 
+Plaintiff is represented by the law firm of Rabin & Peckel LLP. Rabin & Peckel LLP and its predecessor firms have devoted its practice to shareholder class actions and complex commercial litigation for more than thirty years and have recovered hundreds of millions of dollars for shareholders in class actions throughout the United States. You can learn more information about Rabin & Peckel at www.rabinlaw.com. 
+If you purchased Enron common stock during the Class Period described above, you may, no later than December 21, 2001, move the Court to serve as lead plaintiff. To serve as lead plaintiff, however, you must meet certain legal requirements. You can join this action as a lead plaintiff online at www.rabinlaw.com. If you wish to discuss this action further or have any questions concerning this announcement, or your rights or interests, please contact plaintiff's counsel, Maurice Pesso and Eric Belfi, Rabin & Peckel LLP, 275 Madison Avenue, New York, NY 10016, by telephone at (800) 497-8076 or (212) 682-1818, by facsimile at (212) 682-1892, or by e-mail at email@rabinlaw.com.
+
+
+CONTACT: Rabin & Peckel LLP Maurice Pesso/Eric Belfi, 800/497-8076 or 212/682-1818 Fax: 212/682-1892 email@rabinlaw.com www.rabinlaw.com 
+12:41 EST NOVEMBER 7, 2001 
+Copyright ? 2000 Dow Jones & Company, Inc. All Rights Reserved. 	
+
+Enron's power company in India calls off Singapore meeting after Indian lenders file lawsuit
+By SATISH NANDGAONKAR
+Associated Press Writer
+
+11/07/2001
+Associated Press Newswires
+Copyright 2001. The Associated Press. All Rights Reserved.
+
+BOMBAY, India (AP) - Enron Corp.'s Indian power unit canceled a meeting with four Indian creditors after they filed a lawsuit against the company and three other parties on Wednesday to demand that the energy project resume operations. 
+The two-day meeting was scheduled to begin in Singapore on Thursday to discuss bids by two Indian companies to acquire a stake in the troubled $2.9 billion Dabhol Power Co.
+The lenders - Industrial Bank of India, Industrial Finance Corporation of India, State Bank of India and ICICI - approached the Bombay court to demand that work on the power project in the western Indian state of Maharashtra resume to ensure adequate cash flows to the project and help its promoters pay dues to the four financial institutions. 
+Dabhol Power Co., the state utility Maharashtra State Electricity Board, the Government of India and the Maharashtra government were the four parties named in the lawsuit. 
+Indian banks and financial institutions, which have invested more than $1.3 billion in the project, want Dabhol to continue work on the project and the MSEB to buy the power produced. 
+The two-day meeting in Singapore was scheduled to discuss the bids made by the two Indian companies, Tatas and the Bombay Suburban Electricity Supply, to acquire a stake in DPC. Enron had offered to sell the stake in DPC for $850 million, at a 30 percent discount, while Tatas wanted a 50 percent discount. 
+On Monday, Enron began its pullout from the Dabhol power project by issuing a notice that it will sell its stake in the project to its sole customer, the Maharashtra State Electricity Board. 
+The asset transfer notice issued by the Dabhol Power Project to the MSEB comes after a prolonged payment dispute with the electricity board. 
+The dispute forced the Houston-based company to shut down the Dabhol plant in May. 
+Fairfield, Conn.-based General Electric Co. and Bechtel Group Inc. of the United States each hold 10 percent stakes each in the company. 
+Enron has moved a London court for international arbitration, but says it would prefer a negotiated settlement with the federal government and the Maharashtra state government. 
+The company still prefers a negotiated purchase of the project by the Indian government and Indian term lending bodies that have funded the equity of foreign sponsors.
+
+Copyright ? 2000 Dow Jones & Company, Inc. All Rights Reserved. 	
+
+
+USA: El Paso says it does not expect Enron bankruptcy.
+
+11/07/2001
+Reuters English News Service
+(C) Reuters Limited 2001.
+
+HOUSTON, Nov 7 (Reuters) - Energy company El Paso Corp. said on Wednesday it does not expect beleaguered competitor Enron Corp. to file for bankruptcy. 
+Ralph Eads, who heads El Paso's merchant energy business, which includes electricity and natural gas marketing and trading, told analysts at a meeting in Houston that the prospect of an Enron bankruptcy was "remote".
+El Paso has gained some market share from Enron in recent weeks as a result of some companies' reluctance to do business with Enron, Eads said, but he added that El Paso has not scaled back its own business dealings with Enron. 
+Eads said El Paso does not expect Enron's problems to result in a "domino effect" that could lead to reduced liquidity in U.S. electricity and natural gas markets, a scenario that has been troubling some analysts and investors recently. 
+El Paso Chief Executive Bill Wise told the meeting, which was broadcast over the Internet, that El Paso might be interested in acquiring some energy assets from Enron but was not interested in acquiring an equity stake in the rival company, which is reported to be seeking an injection of new capital.
+
+Copyright ? 2000 Dow Jones & Company, Inc. All Rights Reserved. 	
+
+
+Energy traders are icing out Enron
+Shares trade at 9-year lows for 2nd straight day 
+By Lisa Sanders, 
+CBS.MarketWatch.com
+Last Update: 1:47 PM ET Nov. 7, 2001 
+ 
+NEW YORK (CBS.MW) -- Amid mounting questions about Enron's liquidity and creditworthiness, players in the energy-trading business have already begun to limit their exposure to the embattled power merchant.
+
+The revelations came Wednesday as Enron's stock (ENE: news, chart, profile) plunged 24 percent following news that Standard & Poor's cut its ratings for the company's credit-linked notes to two notches above junk status.
+
+"Everybody's trying to balance out their exposure to Enron as best they can," said an energy trader who spoke on condition of anonymity. "That means not doing business or minimizing their business with Enron."
+
+1 of 4 energy trades
+
+Traders' attempts to isolate the company underscore concerns about the stability of the overall energy-trading market, in which Enron is involved in 1 out of every 4 trades. 
+
+However, some industry watchers are confident that the energy market can survive if Houston-based Enron were to disappear.
+
+"Even though they quote-unquote make the market, the market exists whether Enron is there or not," said Phil Flynn, senior markets analyst at Alaron.com. "Those that think this is the end of energy trading have another thing coming."
+
+Enron, its shares trading at levels not seen since 1992, saw the stock fall $2.27 to $7.40 on in afternoon volume of 58 million.
+
+On Wednesday, Standard & Poor's, which just last week downgraded Enron's corporate credit rating, cut the rating on the credit-linked notes of Enron Credit Linked Notes Trusts to BBB from BBB-plus. S&P also added a "Watch negative" designation, meaning the rating agency is poised to issue further downgrades if warranted. 
+
+"The CreditWatch placements recognize the uncertainties that surround the company and its credit quality in the short run due to the possibility of further anticipated developments in the capital markets," the rating agency wrote.
+
+Wednesday's downgrade affects $500 million worth of notes, which are derivatives linked to Enron's senior unsecured debt, now rated BBB.
+
+"The investors are taking the risk of Enron credit" by purchasing the securities from the trusts even though these are not issued by Enron," said Tom Fritz, a Standard & Poor's managing director.
+
+In addition, Standard & Poor's cut to BBB Yosemite Securities Co. Series 2000-A. The obligations use Enron's corporate rating as a backstop. 
+
+The counterparty to Yosemite and the credit-linked notes is Citibank, Fritz said. Last week, J.P. Morgan joined with Salomon Smith Barney, which along with Citibank is a unit of Citigroup (C: news, chart, profile), to extend $1 billion in new credit to Enron to help the company's liquidity.
+
+'Not business as usual'
+
+"With these downgrades, it's not business as usual," the energy trader said. "We're already in the process of losing a counterparty that contributed a good deal of liquidity to the energy-trading market."
+
+The trader cited Calpine (CPN: news, chart, profile), Dynegy (DYN: news, chart, profile), and El Paso Energy (EPG: news, chart, profile) as energy traders that have a chance to gain market share, but he conceded that Enron won't be replaced overnight, should it cease to exist.
+
+"Energy trading won't be destroyed at all," the trader said. "It will certainly be diminished but not gone."
+
+What Enron's absence would do is make it more difficult for lesser creditworthy companies to participate in the market. Exchanges such as the New York Mercantile Exchange and the Intercontinental Exchange may gain a higher profile. 
+
+Both of them are trying to establish a clearinghouse for the unregulated market for derivative-energy transactions, as the NYMEX already does with futures. 
+
+In other news, Enron is preparing to close most of its Asian broadband telecommunications business, part of a global restructuring that comes as the company is seeking a capital infusion of as much as $2 billion to help it through a financial crisis. See previous story.
+
+"Poor demand for broadband is being exacerbated by falling prices, requiring Enron to consider the best options for managing its global broadband business," according to a recent company memo obtained by CBS.MarketWatch.com.
+
+Lisa Sanders is a Dallas-based reporter for CBS.MarketWatch.com. 
+
+
+Legal Group Plans Suit to Void California Power Contracts
+2001-11-07 14:20 (New York)
+
+Legal Group Plans Suit to Void California Power Contracts
+
+     Escondido, California, Nov. 7 (Bloomberg) -- A conservative
+legal foundation said it will file a lawsuit tomorrow to void long-
+term contracts California signed with power generators, claiming
+they put an unfair burden on taxpayers.
+
+     The United States Justice Foundation intends to sue in
+Sacramento County Superior Court, said Richard D. Ackerman, lead
+counsel on the case for the group. The USJF wants a court to
+terminate the long-term power contracts and require money already
+paid to the generators to be returned to the state.
+
+     The USJF proposes a class action to represent California
+taxpayers and alleges violations of the state's business and open-
+meeting laws. Ackerman said his group may need to forge new law to
+succeed in the case.
+
+     ``You're gonna have some serious legal battles that may go to
+the appeals level in this case,'' Ackerman said.
+
+     California officials last spring signed about $43 billion in
+long-term power contracts after two investor-owned utilities
+became insolvent. Governor Gray Davis has said the contracts were
+needed to bring stability to California's energy market. Since
+then, the cost of power has dropped, leaving California with
+contracts to buy electricity above spot-market prices.
+
+     Enron Corp., Southern California Edison Company, Pacific Gas
+& Electric Company, Green Mountain Energy, San Diego Gas &
+Electric Company, Reliant Energy Company, PacifiCorp Power
+Marketing, Inc., Alliance Colton LLC, and Calpine Energy Company
+have electricity contracts with the state, according to a USJF
+press release.
+
+     The USJF said it sent a letter to California officials giving
+them notice of its intent to sue. The group, which calls itself
+``Your conservative voice in the courts'' on its Web site, is
+supported by individual donations, Ackerman said.
+
+--Michael B. Marois in Sacramento (916) 503-1612
+
+cleaned body:
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    }
+  ],
+  "claims": [
+    {
+      "type": "MeetingPlan",
+      "subject": "John Arnold",
+      "object": "FW: Enron Mentions forwarding",
+      "event_time": "2001-11-07 22:14:30",
+      "confidence": 0.85,
+      "evidence": {
+        "quote": "FW: Enron Mentions",
+        "char_start": 0,
+        "char_end": 16
+      }
+    }
+  ]
+}
+Processed row 7013
+subject:
+sender:john.arnold@enron.com
+date:2001-11-07 23:09:09+00:00
+body:call me if you need me
+cleaned body:call me if you need me
+-------------------------------------------------
+{"entities": [],
+"claims": [
+{
+"type": "MeetingPlan",
+"subject": "john.arnold@enron.com",
+"object": "meeting scheduling",
+"event_time": "2001-11-07 23:09:09+00:00",
+"valid_from": null,
+"valid_to": null,
+"confidence": 0.75,
+"evidence": {
+"quote": "call me if you need me",
+"char_start": 1,
+"char_end": 23
+}
+}
+]
+}
+Processed row 7014
+subject:RE: hows the picture coming?
+sender:john.arnold@enron.com
+date:2001-11-08 00:25:42+00:00
+body:I've got them.  What's your fax #
+
+ -----Original Message-----
+From: 	Abramo, Caroline  
+Sent:	Wednesday, November 07, 2001 4:43 PM
+To:	Arnold, John
+Subject:	hows the picture coming?
+
+you don't need to include yourself in it....
+cleaned body:I've got them.  What's your fax #
+
+-------------------------------------------------
+{"entities": [],
+"claims": [
+{
+"type": "MeetingPlan",
+"subject": "john.arnold@enron.com",
+"object": "request for fax number",
+"event_time": "2001-11-08 00:25:42+00:00",
+"valid_from": null,
+"valid_to": null,
+"confidence": 0.75,
+"evidence": {
+"quote": "I've got them. What's your fax #",
+"char_start": 0,
+"char_end": 32
+}
+}
+]
+}
+Processed row 7015
+subject:
+sender:john.arnold@enron.com
+date:2001-11-08 13:51:54+00:00
+body:cancel tonight's festivities
+cleaned body:cancel tonight's festivities
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    }
+  ],
+  "claims": [
+    {
+      "type": "MeetingPlan",
+      "subject": "John Arnold",
+      "object": "cancellation of festivities",
+      "event_time": "2001-11-08T13:51:54",
+      "confidence": 1.0,
+      "evidence": {
+        "quote": "cancel tonight's festivities",
+        "char_start": 0,
+        "char_end": 26
+      }
+    }
+  ]
+}
+Processed row 7016
+subject:RE:
+sender:john.arnold@enron.com
+date:2001-11-09 13:45:51+00:00
+body:let's push until monday
+
+ -----Original Message-----
+From: 	MHeffner@carrfut.com@ENRON  
+Sent:	Friday, November 09, 2001 7:43 AM
+To:	Arnold, John
+Subject:	 
+
+huge plane-flight problems
+didn't even get to NY till 4:00pm
+sorry to have not called
+
+is there a decent time today to talk, or do you want to push to monday
+
+let me know
+again sorry
+heff
+cleaned body:let's push until monday
+
+-------------------------------------------------
+{
+  "entities": [],
+  "claims": [
+    {
+      "type": "MeetingPlan",
+      "subject": "john.arnold@enron.com",
+      "object": "push until monday",
+      "event_time": "2001-11-09 13:45:51+00:00",
+      "valid_from": null,
+      "confidence": 0.75,
+      "evidence": {
+        "quote": "let's push until monday",
+        "char_start": 0,
+        "char_end": 21
+      }
+    }
+  ]
+}
+Processed row 7017
+subject:Re: pulaski
+sender:john.arnold@enron.com
+date:2001-05-01 03:09:00+00:00
+body:remind jim how the h/j/k spread acted this year.  granted it won't behave that way again until close to expiry, but i like the j/k outright much moreso than the condor.
+
+
+
+
+Caroline Abramo@ENRON
+04/30/2001 12:24 PM
+To:	John Arnold/HOU/ECT@ECT
+cc:	 
+Subject:	pulaski
+
+
+---------------------- Forwarded by Caroline Abramo/Corp/Enron on 04/30/2001 01:23 PM ---------------------------
+
+
+Jim Pulaski <Jim.Pulaski@tudor.com> on 04/30/2001 12:17:09 PM
+To:	"Caroline. Abramo (E-mail)" <Caroline.Abramo@enron.com>
+cc:	 
+
+Subject:	
+
+
+btw,  that wasnt me buying the f-g/j-k on friday at 4
+
+
+
+
+cleaned body:remind jim how the h/j/k spread acted this year.  granted it won't behave that way again until close to expiry, but i like the j/k outright much moreso than the condor.
+
+
+
+
+Caroline Abramo@ENRON
+04/30/2001 12:24 PM
+To:	John Arnold/HOU/ECT@ECT
+cc:	 
+Subject:	pulaski
+
+
+---------------------- Forwarded by Caroline Abramo/Corp/Enron on 04/30/2001 01:23 PM ---------------------------
+
+
+Jim Pulaski <Jim.Pulaski@tudor.com> on 04/30/2001 12:17:09 PM
+To:	"Caroline. Abramo (E-mail)" <Caroline.Abramo@enron.com>
+cc:	 
+
+Subject:	
+
+
+btw,  that wasnt me buying the f-g/j-k on friday at 4
+
+
+
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    },
+    {
+      "type": "Person",
+      "name": "Jim Pulaski",
+      "email": "Jim.Pulaski@tudor.com"
+    },
+    {
+      "type": "Person",
+      "name": "Caroline Abramo",
+      "aliases": ["Caroline Abramo@ENRON"]
+    }
+  ],
+  "claims": [
+    {
+      "type": "Commitment",
+      "subject": "John Arnold",
+      "object": "remind jim how the h/j/k spread acted this year",
+      "event_time": "2001-05-01 03:09:00",
+      "valid_from": null,
+      "valid_to": null,
+      "confidence": 0.85,
+      "evidence": {
+        "quote": "remind jim how the h/j/k spread acted this year.",
+        "char_start": 12,
+        "char_end": 63
+      }
+    },
+    {
+      "type": "MeetingPlan",
+      "subject": "Caroline Abramo",
+      "object": "discussion about pulaski",
+      "event_time": "2001-05-01 03:09:00",
+      "valid_from": null,
+      "valid_to": null,
+      "confidence": 0.85,
+      "evidence": {
+        "quote": "pulaski",
+        "char_start": 67,
+        "char_end": 73
+      }
+    },
+    {
+      "type": "Commitment",
+      "subject": "Jim Pulaski",
+      "object": "not jim buying the f-g/j-k on friday at 4",
+      "event_time": null,
+      "valid_from": null,
+      "valid_to": null,
+      "confidence": 0.75,
+      "evidence": {
+        "quote": "btw,  that wasnt me buying the f-g/j-k on friday at 4",
+        "char_start": 123,
+        "char_end": 148
+      }
+    }
+  ]
+}
+Processed row 7018
+subject:FW: Expense Reports Awaiting Your Approval
+sender:john.arnold@enron.com
+date:2001-11-09 14:01:33+00:00
+body:can you approve this
+
+ -----Original Message-----
+From: 	enron_update@concureworkplace.com@ENRON  
+Sent:	Thursday, November 08, 2001 11:30 PM
+To:	John Arnold
+Subject:	Expense Reports Awaiting Your Approval
+
+The following reports have been waiting for your approval for more than 4 days.  Please review.
+
+Owner: Justin K Rostant
+Report Name: JRostant 10/24/01
+Days In Mgr. Queue: 15
+
+cleaned body:can you approve this
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    }
+  ],
+  "claims": [
+    {
+      "type": "Commitment",
+      "subject": "John Arnold",
+      "object": "approve expense reports",
+      "event_time": "2001-11-09 14:01:33+00:00",
+      "confidence": 1.0,
+      "evidence": {
+        "quote": "can you approve this",
+        "char_start": 0,
+        "char_end": 12
+      }
+    }
+  ]
+}
+Processed row 7019
+subject:
+sender:john.arnold@enron.com
+date:2001-11-12 17:49:49+00:00
+body:pull up www.dynegy.com and look at the picture and the headline
+cleaned body:pull up www.dynegy.com and look at the picture and the headline
+-------------------------------------------------
+{
+  "entities": [],
+  "claims": []
+}
+Processed row 7020
+subject:FW: Deal Ticket
+sender:john.arnold@enron.com
+date:2001-11-12 19:37:35+00:00
+body:
+
+-----Original Message-----
+From: Perez, Agustin 
+Sent: Monday, November 12, 2001 9:16 AM
+To: Arnold, John; Brawner, Sandra F.; Parks, Joe
+Cc: Bailey, Derek; Heaney, Gordon; Williams, Jaime
+Subject: Deal Ticket
+
+
+ 
+cleaned body:
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    }
+  ],
+  "claims": [
+    {
+      "type": "MeetingPlan",
+      "subject": "John Arnold",
+      "object": "FW: Deal Ticket",
+      "event_time": "2001-11-12T19:37:35",
+      "confidence": 0.75,
+      "evidence": {
+        "quote": "FW: Deal Ticket",
+        "char_start": 0,
+        "char_end": 14
+      }
+    }
+  ]
+}
+Processed row 7021
+subject:RE: TOP 50 GAS CPS - AS OF 11-9-01
+sender:john.arnold@enron.com
+date:2001-11-12 19:42:05+00:00
+body:for at least another couple days
+
+ -----Original Message-----
+From: 	Puthigai, Savita  
+Sent:	Monday, November 12, 2001 12:47 PM
+To:	Arnold, John
+Subject:	FW: TOP 50 GAS CPS - AS OF 11-9-01
+
+Hi John,
+
+Please let me know if you want us to continue this report.
+
+Savita
+
+ -----Original Message-----
+From: 	Sweitzer, Tara  
+Sent:	Monday, November 12, 2001 12:27 PM
+To:	Puthigai, Savita; Denny, Jennifer; Moorer, Torrey; Johnson, Adam; George, Fraisy
+Subject:	FW: TOP 50 GAS CPS - AS OF 11-9-01
+
+
+Savita,
+
+The Arnold report has been reviewed and it looks good.
+
+Thanks 
+TARA
+ -----Original Message-----
+From: 	Johnson, Adam  
+Sent:	Monday, November 12, 2001 8:34 AM
+To:	Denny, Jennifer; Moorer, Torrey; Sweitzer, Tara
+Subject:	TOP 50 GAS CPS - AS OF 11-9-01
+
+
+
+this report is ready to be verified...
+
+ << File: TOP 50 CP - GAS EM 11-9-01.xls >> 
+Adam Johnson
+EnronOnline
+cleaned body:for at least another couple days
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    }
+  ],
+  "claims": []
+}
+Processed row 7022
+subject:
+sender:john.arnold@enron.com
+date:2001-11-13 16:08:58+00:00
+body:mirant and koch arent selling physical
+cleaned body:mirant and koch arent selling physical
+-------------------------------------------------
+{
+  "entities": [],
+  "claims": []
+}
+Processed row 7023
+subject:
+sender:john.arnold@enron.com
+date:2001-11-13 18:28:31+00:00
+body:I talked to Man and they agreed to back off.  They will not call for more margin nor will they require us to move positions, as of this minute anyway.  If you hear any differently, please call me.
+John
+cleaned body:I talked to Man and they agreed to back off.  They will not call for more margin nor will they require us to move positions, as of this minute anyway.  If you hear any differently, please call me.
+John
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    },
+    {
+      "type": "Organization",
+      "name": "Man",
+      "aliases": [""]
+    }
+  ],
+  "claims": [
+    {
+      "type": "Decision",
+      "subject": "John Arnold",
+      "object": "Man will not call for more margin nor require us to move positions",
+      "event_time": "2001-11-13 18:28:31+00:00",
+      "valid_from": "2001-11-13T18:28:31+00:00",
+      "confidence": 1.0,
+      "evidence": {
+        "quote": "I talked to Man and they agreed to back off.  They will not call for more margin nor will they require us to move positions, as of this minute anyway.",
+        "char_start": 0,
+        "char_end": 124
+      }
+    }
+  ]
+}
+Processed row 7024
+subject:
+sender:john.arnold@enron.com
+date:2001-11-14 16:56:00+00:00
+body:wanna get a smoothie with me by the playground with me after school?
+cleaned body:wanna get a smoothie with me by the playground with me after school?
+-------------------------------------------------
+{"entities": [],
+"claims": []}
+Processed row 7025
+subject:RE: I think the industry is having fun with it!
+sender:john.arnold@enron.com
+date:2001-11-14 18:24:35+00:00
+body:aep goes out and celebrates every night.  
+
+-----Original Message-----
+From: White, Bill 
+Sent: Wednesday, November 14, 2001 12:23 PM
+To: Woulfe, Greg; Arnold, John
+Subject: FW: I think the industry is having fun with it!
+
+
+The industry loves us!.....
+
+-----Original Message-----
+From: Bogucki, Robert 
+Sent: Wednesday, November 14, 2001 12:20 PM
+To: White, Bill
+Subject: FW: I think the industry is having fun with it!
+
+
+cleaned body:aep goes out and celebrates every night.  
+
+-------------------------------------------------
+{
+  "entities": [],
+  "claims": [
+    {
+      "type": "Intent",
+      "subject": "john.arnold@enron.com",
+      "object": "aep goes out and celebrates every night",
+      "event_time": "2001-11-14 18:24:35+00:00",
+      "confidence": 0.75,
+      "evidence": {
+        "quote": "aep goes out and celebrates every night.",
+        "char_start": 6,
+        "char_end": 52
+      }
+    }
+  ]
+}
+Processed row 7026
+subject:RE: Thanks for taking the call this morning
+sender:john.arnold@enron.com
+date:2001-11-14 18:27:33+00:00
+body:Sorry, but don't know the names offhand.  Haven't seriously looked externally for 5 years.
+
+ -----Original Message-----
+From: 	"Chris Spintzyk" <cspintzyk@thinkingahead.com>@ENRON  
+Sent:	Wednesday, November 14, 2001 10:55 AM
+To:	Arnold, John
+Subject:	Thanks for taking the call this morning
+
+John,
+
+Thanks for taking my call this morning and giving me the lay of the
+land.  You mentioned the fact that there are a couple of HeadHunting
+firms out there that are doing some business on the Trading side...do
+you have any idea what firms those are so I can do some checking around
+to see what they are all about etc....
+
+Any other ideas you might have would be appreciated.
+
+Thanks again for the time.  I do appreciate it....
+
+
+Chris Spintzyk / Search Partner
+ThinkingAhead
+615.316.5474 Office
+615.400.8719 Mobile
+chriss@thinkingahead.com
+www.thinkingahead.com
+
+" A players hire A players.  Hire B players and you end up with a
+company full of C's "
+
+"Each day the good lord gives me an opportunity to be good, better, or
+best.  Each day I pledge to the Lord I will not rest until my good is
+better, and my better is the best !"
+
+"Something Terrible Happens when people don't sell something.....Nothing
+!!"
+> ----------------------------------------------------------------------
+> ------------------
+> The information transmitted is intended only for the person or entity
+> to which it is addressed and may contain confidential and/or
+> privileged material.  Any review, retransmission, dissemination or
+> other use of, or taking of any action in reliance upon, this
+> information by persons or entities other than the intended recipient
+> is prohibited.   If you received this in error, please contact the
+> sender and delete the material from any computer.
+>
+ <<Chris Spintzyk.vcf>> 
+ - Chris Spintzyk.vcf << File: Chris Spintzyk.vcf >> 
+cleaned body:Sorry, but don't know the names offhand.  Haven't seriously looked externally for 5 years.
+
+-------------------------------------------------
+{"entities": [],
+"claims": []}
+Processed row 7027
+subject:RE: Thanks for taking the call this morning
+sender:john.arnold@enron.com
+date:2001-11-14 19:44:19+00:00
+body:what article in the chronicle?
+
+ -----Original Message-----
+From: 	"Chris Spintzyk" <cspintzyk@thinkingahead.com>@ENRON  
+Sent:	Wednesday, November 14, 2001 12:29 PM
+To:	Arnold, John
+Subject:	RE: Thanks for taking the call this morning
+
+John,
+
+Thanks for getting back with me...and according to the article in the
+Houston Chronicle you are the #1 guy there, so I can see why there would
+not be a need to look...how does the merger with Dynegy affect you
+guys...is there going to be a shakeout ?  Also if you could take a guess
+are there allot of companies in Houston aggressively hiring experienced
+traders now or has it slowed...?
+
+Thanks again and continued success....
+
+
+Chris Spintzyk / Search Partner
+ThinkingAhead
+615.316.5474 Office
+615.400.8719 Mobile
+chriss@thinkingahead.com
+www.thinkingahead.com
+
+" A players hire A players.  Hire B players and you end up with a
+company full of C's "
+
+"Each day the good lord gives me an opportunity to be good, better, or
+best.  Each day I pledge to the Lord I will not rest until my good is
+better, and my better is the best !"
+
+"Something Terrible Happens when people don't sell something.....Nothing
+!!"
+>
+------------------------------------------------------------------------
+----------------
+> The information transmitted is intended only for the person or entity
+to which it is addressed and may contain confidential and/or privileged
+material.  Any review, retransmission, dissemination or other use of, or
+taking of any action in reliance upon, this information by persons or
+entities other than the intended recipient is prohibited.   If you
+received this in error, please contact the sender and delete the
+material from any computer.
+>
+
+
+ - Chris Spintzyk.vcf << File: Chris Spintzyk.vcf >> 
+cleaned body:what article in the chronicle?
+
+-------------------------------------------------
+{
+  "entities": [],
+  "claims": []
+}
+Processed row 7028
+subject:natural update
+sender:john.arnold@enron.com
+date:2001-04-30 19:31:00+00:00
+body:
+---------------------- Forwarded by John Arnold/HOU/ECT on 04/30/2001 09:30 AM ---------------------------
+
+
+"Mark Sagel" <msagel@home.com> on 04/29/2001 06:50:29 PM
+To:	"John Arnold" <jarnold@enron.com>
+cc:	 
+Subject:	natural update
+
+
+
+Latest comments FYI
+ - ng042901.doc 
+
+cleaned body:
+---------------------- Forwarded by John Arnold/HOU/ECT on 04/30/2001 09:30 AM ---------------------------
+
+
+"Mark Sagel" <msagel@home.com> on 04/29/2001 06:50:29 PM
+To:	"John Arnold" <jarnold@enron.com>
+cc:	 
+Subject:	natural update
+
+
+
+Latest comments FYI
+ - ng042901.doc 
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "Mark Sagel",
+      "email": "msagel@home.com"
+    },
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "jarnold@enron.com"
+    }
+  ],
+  "claims": [
+    {
+      "type": "MeetingPlan",
+      "subject": "John Arnold",
+      "object": "Latest comments FYI - ng042901.doc",
+      "event_time": "2001-04-30 19:31:00+00:00",
+      "confidence": 0.85,
+      "evidence": {
+        "quote": "Latest comments FYI - ng042901.doc",
+        "char_start": 67,
+        "char_end": 103
+      }
+    }
+  ]
+}
+Processed row 7029
+subject:RE:
+sender:john.arnold@enron.com
+date:2001-11-14 20:59:43+00:00
+body:how bout 3:15?
+
+ -----Original Message-----
+From: 	Allen, Margaret  
+Sent:	Wednesday, November 14, 2001 2:55 PM
+To:	Arnold, John
+Subject:	RE: 
+
+When are we going? 
+
+ -----Original Message-----
+From: 	Arnold, John  
+Sent:	Wednesday, November 14, 2001 10:56 AM
+To:	Allen, Margaret
+Subject:	
+
+wanna get a smoothie with me by the playground with me after school?
+cleaned body:how bout 3:15?
+
+-------------------------------------------------
+{"entities": [],
+"claims": [
+{
+"type": "MeetingPlan",
+"subject": "john.arnold@enron.com",
+"object": "meeting scheduling",
+"event_time": "2001-11-14 20:59:43+00:00",
+"valid_from": null,
+"confidence": 0.75,
+"evidence": {
+"quote": "how bout 3:15?",
+"char_start": 0,
+"char_end": 12
+}
+}
+]
+}
+Processed row 7030
+subject:RE:
+sender:john.arnold@enron.com
+date:2001-11-14 21:08:44+00:00
+body:yea, call me when you're walking out
+
+ -----Original Message-----
+From: 	Allen, Margaret  
+Sent:	Wednesday, November 14, 2001 3:01 PM
+To:	Arnold, John
+Subject:	RE: 
+
+i need to talk to you about work stuff too. are we meeting downstairs in the lobby?
+
+ -----Original Message-----
+From: 	Arnold, John  
+Sent:	Wednesday, November 14, 2001 3:00 PM
+To:	Allen, Margaret
+Subject:	RE: 
+
+how bout 3:15?
+
+ -----Original Message-----
+From: 	Allen, Margaret  
+Sent:	Wednesday, November 14, 2001 2:55 PM
+To:	Arnold, John
+Subject:	RE: 
+
+When are we going? 
+
+ -----Original Message-----
+From: 	Arnold, John  
+Sent:	Wednesday, November 14, 2001 10:56 AM
+To:	Allen, Margaret
+Subject:	
+
+wanna get a smoothie with me by the playground with me after school?
+cleaned body:yea, call me when you're walking out
+
+-------------------------------------------------
+{"entities": [], "claims": []}
+Processed row 7031
+subject:
+sender:john.arnold@enron.com
+date:2001-11-14 21:09:10+00:00
+body:...since I waited half an hour for you last time
+cleaned body:...since I waited half an hour for you last time
+-------------------------------------------------
+{
+  "entities": [],
+  "claims": []
+}
+Processed row 7032
+subject:RE:
+sender:john.arnold@enron.com
+date:2001-11-14 21:13:43+00:00
+body:okay skilling
+
+ -----Original Message-----
+From: 	Allen, Margaret  
+Sent:	Wednesday, November 14, 2001 3:11 PM
+To:	Arnold, John
+Subject:	RE: 
+
+whatever. i'll call when i'm walking out and i'm sure i'll wait 45 minutes. asshole.
+
+ -----Original Message-----
+From: 	Arnold, John  
+Sent:	Wednesday, November 14, 2001 3:09 PM
+To:	Allen, Margaret
+Subject:	
+
+...since I waited half an hour for you last time
+cleaned body:okay skilling
+
+-------------------------------------------------
+{"entities": [],
+"claims": [
+{
+"type": "MeetingPlan",
+"subject": "john.arnold@enron.com",
+"object": "meeting scheduling",
+"event_time": "2001-11-14 21:13:43+00:00",
+"valid_from": null,
+"valid_to": null,
+"confidence": 0.75,
+"evidence": {
+"quote": "okay skilling",
+"char_start": 1,
+"char_end": 8
+}
+}
+]
+}
+Processed row 7033
+subject:RE: EDF request
+sender:john.arnold@enron.com
+date:2001-11-14 23:15:40+00:00
+body:Tell them that margin will be posted as normal, no excess nor any intraday calls.  Since ENE is flush with liquidity, he should be very comfortable that we can pay our bills.  The positions will roll off through time until the position gets very small and then we will x-pit everything out of Man and close the account.  Anything different and all dealings between Man and Enron in energy will be terminated in both OTC and futures.  
+
+ -----Original Message-----
+From: 	Wesner-Soong, Sarah  
+Sent:	Wednesday, November 14, 2001 3:47 PM
+To:	Arnold, John
+Cc:	Deffner, Joseph; Shackleton, Sara
+Subject:	EDF request
+
+John - I returned a call to Ira Polk and Kevin Davis today at Man.  Ira was not in so I spoke with Kevin.  
+
+Kevin asked me if Enron would consider posting more margin than required by NYMEX on our option positions. He said that "given ENE is now flush with liquidity" he thinks it would make Enron "look good" in front of the EDF Board.  He asked for twice the margin required by NYMEX but stated that he would be "ecstatic" with 1.5x (about $5 million.)  He specifically asked me not to elevate this request to your level but I feel you have a right to know what EDF is asking of ENE.  He also told me that if we did not post the additional margin then EDF would have to give us intraday calls every time the market moved against our positions.  Kevin also state that EDF is too small compared to a bank and that he would prefer if EDF odes only execution of ENE deals and we clear all ENE transactions through a bank.  
+
+I have been out of town so may be missing on part of the story but I think it's ridiculous that EDF wants us to do them a favour when they ditched us when Enron was in a  severe liquidity crisis.  I told Kevin that I did not think we would meet his request but that would check on it internally.  
+
+
+ -----Original Message-----
+From: 	Deffner, Joseph  
+Sent:	Wednesday, November 14, 2001 2:31 PM
+To:	Wesner-Soong, Sarah
+Subject:	This came yesterday
+
+
+
+ -----Original Message-----
+From: 	Arnold, John  
+Sent:	Tuesday, November 13, 2001 12:29 PM
+To:	Deffner, Joseph
+Subject:	
+
+I talked to Man and they agreed to back off.  They will not call for more margin nor will they require us to move positions, as of this minute anyway.  If you hear any differently, please call me.
+John
+cleaned body:Tell them that margin will be posted as normal, no excess nor any intraday calls.  Since ENE is flush with liquidity, he should be very comfortable that we can pay our bills.  The positions will roll off through time until the position gets very small and then we will x-pit everything out of Man and close the account.  Anything different and all dealings between Man and Enron in energy will be terminated in both OTC and futures.  
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Organization",
+      "name": "Enron",
+      "email": null
+    },
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com",
+      "aliases": []
+    }
+  ],
+  "claims": [
+    {
+      "type": "Commitment",
+      "subject": "John Arnold",
+      "object": "margin will be posted as normal",
+      "event_time": "2001-11-14T23:15:40",
+      "valid_from": null,
+      "valid_to": null,
+      "confidence": 1.0,
+      "evidence": {
+        "quote": "Tell them that margin will be posted as normal",
+        "char_start": 0,
+        "char_end": 52
+      }
+    },
+    {
+      "type": "Ownership",
+      "subject": "John Arnold",
+      "object": "ENE's liquidity",
+      "event_time": "2001-11-14T23:15:40",
+      "valid_from": null,
+      "valid_to": null,
+      "confidence": 1.0,
+      "evidence": {
+        "quote": "Since ENE is flush with liquidity",
+        "char_start": 53,
+        "char_end": 84
+      }
+    },
+    {
+      "type": "Decision",
+      "subject": "John Arnold",
+      "object": "positions will roll off through time until the position gets very small and then we will x-pit everything out of Man and close the account",
+      "event_time": "2001-11-14T23:15:40",
+      "valid_from": null,
+      "valid_to": null,
+      "confidence": 1.0,
+      "evidence": {
+        "quote": "The positions will roll off through time until the position gets very small and then we will x-pit everything out of Man and close the account",
+        "char_start": 85,
+        "char_end": 160
+      }
+    },
+    {
+      "type": "Commitment",
+      "subject": "John Arnold",
+      "object": "all dealings between Man and Enron in energy will be terminated in both OTC and futures",
+      "event_time": "2001-11-14T23:15:40",
+      "valid_from": null,
+      "valid_to": null,
+      "confidence": 1.0,
+      "evidence": {
+        "quote": "Anything different and all dealings between Man and Enron in energy will be terminated in both OTC and futures",
+        "char_start": 161,
+        "char_end": 204
+      }
+    }
+  ]
+}
+Processed row 7034
+subject:RE: This Weekends Move of Power and Gas
+sender:john.arnold@enron.com
+date:2001-11-15 16:45:24+00:00
+body:yes
+
+ -----Original Message-----
+From: 	Rangel, Ina  
+Sent:	Thursday, November 15, 2001 10:20 AM
+To:	Arnold, John
+Subject:	FW: This Weekends Move of Power and Gas
+Importance:	High
+
+John:
+
+I have spoken with the assistants and the following people are the ones who probably need to come in or would want to come in on Sunday:
+
+EAST:				WEST:
+Jon McKay			Mike Grigsby
+Scott Neal			Keith Holst
+Pete Keavey			Frank Ermis	
+				Tori Kuykendall
+CENTRAL:				
+Geoff Storey			TEXAS:
+Andy Lewis			Tom Martin
+Hunter Shively			Eric Bass
+Martin Cuilla			Joe Parks
+				Jim Schwieger
+FINANCIAL:			Daren Farmer (maybe)
+John Arnold
+Mike Maggi
+Dutch Quigley
+John Griffith
+Larry May
+
+If this is okay with you, I will forward it on to Tammy Shepperd.
+ -----Original Message-----
+From: 	Shepperd, Tammy R.  
+Sent:	Thursday, November 15, 2001 8:01 AM
+To:	Arnold, John; Black, Don; Hall, Bob M
+Cc:	Choate, Heather; Rangel, Ina; Wood, Kim
+Subject:	FW: This Weekends Move of Power and Gas
+Importance:	High
+
+GAS TRADING TEAM
+
+Can you guys please prepare a coordinated list of no more than 35 people that can come in on Sunday between 2- 6:00 pm to test trading applications.  Due to the combination of the moves (over 900 people) the IT group wants to ensure that your applications are functioning properly before Monday morning.  
+
+The list should be weighted heavier towards those folks who can identify system problems rather than unpacking boxes.  There will still be alot of the move team on the floor finishing installations etc.  
+
+Please provide the list by end of business today (thursday).  
+
+Thank you!
+Tammy
+x36589
+
+
+ -----Original Message-----
+From: 	Bucknell, Martin  
+Sent:	Wednesday, November 14, 2001 5:05 PM
+To:	Lavorato, John; Colwell, Wes; Piper, Greg; Pickering, Mark; Donovan, Bill; Rub, Jenny; Kitchen, Louise; Shepperd, Tammy R.
+Cc:	Cline, Paul; Duree, Janelle; Lopez, Susan
+Subject:	This Weekends Move of Power and Gas
+
+All, 
+I have included an outline of the move for this weekend, we will commence approx 2:00pm Friday when the power tading market closes. We need everyone (except the 24x7 groups & office of the chair) to be off the phones by 6:00pm. These times have been agreed with the department heads and we will be flexible where necessary upto 6:00pm
+
+We will open the floors between 2:00pm & 5:00pm on Sunday, for the following groups to come in and test their systems and telephones, the users are being selected by the heads of departments and we have support staff on-hand to deal with problems and questions.
+25 Gas traders / admins
+25 Power traders / admins
+10 Gas back office /admins
+10 Power back office / admins
+Office of the chair and admin staff
+
+Business contingency and fall back positions will be in-place on Sunday
+
+if you need any more information, please call me or pass the requests on via Tammy Shepperd
+
+ << OLE Object: Microsoft Word Document >> 
+Martin Bucknell - 713 853 1800
+cleaned body:yes
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    }
+  ],
+  "claims": [
+    {
+      "type": "MeetingPlan",
+      "subject": "John Arnold",
+      "object": "This Weekends Move of Power and Gas",
+      "event_time": "2001-11-15T16:45:24",
+      "confidence": 1.0,
+      "evidence": {
+        "quote": "yes",
+        "char_start": 0,
+        "char_end": 2
+      }
+    }
+  ]
+}
+Processed row 7035
+subject:
+sender:john.arnold@enron.com
+date:2001-11-15 17:24:19+00:00
+body:isnt that pasta yummy and nutricious?
+cleaned body:isnt that pasta yummy and nutricious?
+-------------------------------------------------
+{"entities": [],
+"claims": []}
+Processed row 7036
+subject:RE:
+sender:john.arnold@enron.com
+date:2001-11-15 20:51:08+00:00
+body:i'm working out w/ perky at tline around 530 today if you're interested.
+
+ -----Original Message-----
+From: 	Ward, Kim S (Houston)  
+Sent:	Thursday, November 15, 2001 1:43 PM
+To:	Arnold, John
+Subject:	RE: 
+
+I threw most of mine away - now I will munch on chocolate all afternoon.  At least it tastes better!
+
+
+ -----Original Message-----
+From: 	Arnold, John  
+Sent:	Thursday, November 15, 2001 11:24 AM
+To:	Ward, Kim S (Houston)
+Subject:	
+
+isnt that pasta yummy and nutricious?
+cleaned body:i'm working out w/ perky at tline around 530 today if you're interested.
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    },
+    {
+      "type": "Organization",
+      "name": "Tline"
+    }
+  ],
+  "claims": [
+    {
+      "type": "MeetingPlan",
+      "subject": "John Arnold",
+      "object": "meeting with Tline around 530 today",
+      "event_time": "2001-11-15 20:51:08+00:00",
+      "confidence": 0.9,
+      "evidence": {
+        "quote": "i'm working out w/ perky at tline around 530 today if you're interested.",
+        "char_start": 0,
+        "char_end": 64
+      }
+    }
+  ]
+}
+Processed row 7037
+subject:RE: Nat Gas market analysis for 11-16-01
+sender:john.arnold@enron.com
+date:2001-11-16 13:38:19+00:00
+body:do you still look at this?
+
+ -----Original Message-----
+From: 	"Capstone Trading Advisor" <capstone@ktc.com>@ENRON  
+Sent:	Friday, November 16, 2001 7:11 AM
+To:	Capstone
+Subject:	Nat Gas market analysis for 11-16-01
+
+Attached please find the Natural Gas market analysis for today.
+
+Thanks,
+
+Bob McKinney
+
+ - 11-16-01 Nat Gas.doc << File: 11-16-01 Nat Gas.doc >> 
+cleaned body:do you still look at this?
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    }
+  ],
+  "claims": [
+    {
+      "type": "MeetingPlan",
+      "subject": "John Arnold",
+      "object": "discussion about Nat Gas market analysis for 11-16-01",
+      "event_time": "2001-11-16 13:38:19+00:00",
+      "confidence": 0.75,
+      "evidence": {
+        "quote": "do you still look at this?",
+        "char_start": 0,
+        "char_end": 24
+      }
+    }
+  ]
+}
+Processed row 7038
+subject:
+sender:john.arnold@enron.com
+date:2001-11-16 16:25:56+00:00
+body:You're a jerk
+cleaned body:You're a jerk
+-------------------------------------------------
+{"entities": [], "claims": []}
+Processed row 7039
+subject:
+sender:john.arnold@enron.com
+date:2001-04-30 05:45:00+00:00
+body:can you get me the number of our contact at the Delano.  I have a personal favor to ask them.
+john
+cleaned body:can you get me the number of our contact at the Delano.  I have a personal favor to ask them.
+john
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    },
+    {
+      "type": "Topic",
+      "name": "Contact at the Delano",
+      "aliases": ["Delano's contact"]
+    }
+  ],
+  "claims": [
+    {
+      "type": "RoleAssignment",
+      "subject": "John Arnold",
+      "object": "Contact at the Delano",
+      "event_time": "2001-04-30 05:45:00",
+      "confidence": 0.85,
+      "evidence": {
+        "quote": "can you get me the number of our contact at the Delano.",
+        "char_start": 0,
+        "char_end": 62
+      }
+    }
+  ]
+}
+Processed row 7040
+subject:RE:
+sender:john.arnold@enron.com
+date:2001-11-16 17:14:07+00:00
+body:I think we're sneaking out early to get a beer around 3-4.  Wanna come?
+
+ -----Original Message-----
+From: 	Allen, Margaret  
+Sent:	Friday, November 16, 2001 10:32 AM
+To:	Arnold, John
+Subject:	RE: 
+
+You're an asshole
+
+ -----Original Message-----
+From: 	Arnold, John  
+Sent:	Friday, November 16, 2001 10:26 AM
+To:	Allen, Margaret
+Subject:	
+
+You're a jerk
+cleaned body:I think we're sneaking out early to get a beer around 3-4.  Wanna come?
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    }
+  ],
+  "claims": [
+    {
+      "type": "MeetingPlan",
+      "subject": "John Arnold",
+      "object": "going out for a beer around 3-4",
+      "event_time": "2001-11-16 17:14:07+00:00",
+      "confidence": 0.85,
+      "evidence": {
+        "quote": "I think we're sneaking out early to get a beer around 3-4. Wanna come?",
+        "char_start": 12,
+        "char_end": 76
+      }
+    }
+  ]
+}
+Processed row 7041
+subject:RE:
+sender:john.arnold@enron.com
+date:2001-11-16 17:24:42+00:00
+body:yea right.  on what?  corporate marketing?   ha,ha,ha
+
+ -----Original Message-----
+From: 	Allen, Margaret  
+Sent:	Friday, November 16, 2001 11:21 AM
+To:	Arnold, John
+Subject:	RE: 
+
+maybe - call me when you're leaving. i'm actually working!
+
+ -----Original Message-----
+From: 	Arnold, John  
+Sent:	Friday, November 16, 2001 11:14 AM
+To:	Allen, Margaret
+Subject:	RE: 
+
+I think we're sneaking out early to get a beer around 3-4.  Wanna come?
+
+ -----Original Message-----
+From: 	Allen, Margaret  
+Sent:	Friday, November 16, 2001 10:32 AM
+To:	Arnold, John
+Subject:	RE: 
+
+You're an asshole
+
+ -----Original Message-----
+From: 	Arnold, John  
+Sent:	Friday, November 16, 2001 10:26 AM
+To:	Allen, Margaret
+Subject:	
+
+You're a jerk
+cleaned body:yea right.  on what?  corporate marketing?   ha,ha,ha
+
+-------------------------------------------------
+{"entities": [], "claims": []}
+Processed row 7042
+subject:RE:
+sender:john.arnold@enron.com
+date:2001-11-19 14:27:46+00:00
+body:yep
+
+ -----Original Message-----
+From: 	Ward, Kim S (Houston)  
+Sent:	Monday, November 19, 2001 8:10 AM
+To:	Arnold, John
+Subject:	
+
+you (and Matt) going to dallas this week?
+cleaned body:yep
+
+-------------------------------------------------
+{"entities": [],
+"claims": [
+{
+"type": "MeetingPlan",
+"subject": "john.arnold@enron.com",
+"object": "meeting scheduling",
+"event_time": "2001-11-19 14:27:46+00:00",
+"valid_from": null,
+"valid_to": null,
+"confidence": 0.5,
+"evidence": {
+"quote": "yep",
+"char_start": 0,
+"char_end": 3
+}
+}
+]
+}
+Processed row 7043
+subject:RE:
+sender:john.arnold@enron.com
+date:2001-11-19 14:31:58+00:00
+body:wed after work
+
+what's in it for us?
+
+ -----Original Message-----
+From: 	Ward, Kim S (Houston)  
+Sent:	Monday, November 19, 2001 8:29 AM
+To:	Arnold, John
+Subject:	RE: 
+
+when?  and if I needed a ride up there, could I tag with you guys?
+
+ -----Original Message-----
+From: 	Arnold, John  
+Sent:	Monday, November 19, 2001 8:28 AM
+To:	Ward, Kim S (Houston)
+Subject:	RE: 
+
+yep
+
+ -----Original Message-----
+From: 	Ward, Kim S (Houston)  
+Sent:	Monday, November 19, 2001 8:10 AM
+To:	Arnold, John
+Subject:	
+
+you (and Matt) going to dallas this week?
+cleaned body:wed after work
+
+what's in it for us?
+
+-------------------------------------------------
+{"entities": [],
+"claims": [
+{
+"type": "MeetingPlan",
+"subject": "john.arnold@enron.com",
+"object": "meeting scheduling",
+"event_time": "2001-11-19 14:31:58+00:00",
+"valid_from": null,
+"valid_to": null,
+"confidence": 0.75,
+"evidence": {
+"quote": "wed after work",
+"char_start": 0,
+"char_end": 12
+}
+}
+]
+}
+Processed row 7044
+subject:RE:
+sender:john.arnold@enron.com
+date:2001-11-19 14:35:47+00:00
+body:but really?
+
+ -----Original Message-----
+From: 	Ward, Kim S (Houston)  
+Sent:	Monday, November 19, 2001 8:33 AM
+To:	Arnold, John
+Subject:	RE: 
+
+my awesome company
+
+ -----Original Message-----
+From: 	Arnold, John  
+Sent:	Monday, November 19, 2001 8:32 AM
+To:	Ward, Kim S (Houston)
+Subject:	RE: 
+
+wed after work
+
+what's in it for us?
+
+ -----Original Message-----
+From: 	Ward, Kim S (Houston)  
+Sent:	Monday, November 19, 2001 8:29 AM
+To:	Arnold, John
+Subject:	RE: 
+
+when?  and if I needed a ride up there, could I tag with you guys?
+
+ -----Original Message-----
+From: 	Arnold, John  
+Sent:	Monday, November 19, 2001 8:28 AM
+To:	Ward, Kim S (Houston)
+Subject:	RE: 
+
+yep
+
+ -----Original Message-----
+From: 	Ward, Kim S (Houston)  
+Sent:	Monday, November 19, 2001 8:10 AM
+To:	Arnold, John
+Subject:	
+
+you (and Matt) going to dallas this week?
+cleaned body:but really?
+
+-------------------------------------------------
+{"entities": [],
+"claims": [
+{
+"type": "MeetingPlan",
+"subject": "john.arnold@enron.com",
+"object": "meeting scheduling",
+"event_time": "2001-11-19 14:35:47+00:00",
+"valid_from": null,
+"valid_to": null,
+"confidence": 0.75,
+"evidence": {
+"quote": "but really?",
+"char_start": 0,
+"char_end": 12
+}
+}
+]
+}
+Processed row 7045
+subject:RE:
+sender:john.arnold@enron.com
+date:2001-11-19 14:53:58+00:00
+body:5
+
+-----Original Message-----
+From: Lavorato, John 
+Sent: Monday, November 19, 2001 8:45 AM
+To: Arnold, John
+Subject: RE: 
+
+
+5 day or 7 day for hub cash
+
+-----Original Message-----
+From: Arnold, John 
+Sent: Sunday, November 18, 2001 11:50 AM
+To: Lavorato, John
+Subject: RE:
+
+
+will do.
+ 
+The purpose of nymex on weekends is to make everybody in the industry bring up EOL every day.  There were a few days when I would get in at 7 and power traders in the industry were already trading gas either throught the broker market or on ice.  I'm trying to ensure EOL is the primary system used to trade gas.  However, it is a money loser.  If we gap down 10 cents over a weekend, I lose an average of 5 cents on 600 lots, $300,000, minus bid/offer on maybe 50 buy/sells of 30 lots times .005 is $75,000.  I don't really want to put more automatic products on the system that do little good as far as promoting EOL but are money losers. The one exception is Hub cash which I think should be a 24 hour 5 day a week product.  
+ 
+Are the FedEx's getting to everybody Monday or are you sending them Monday?
+ 
+-----Original Message----- 
+From: Lavorato, John 
+Sent: Sun 11/18/2001 10:49 AM 
+To: Arnold, John 
+Cc: 
+Subject: 
+
+
+
+I need to give you a task.  Figure out what I lost last week.
+ 
+Also, why don't we have the rest of month henry hub swap up on weekends.
+ 
+this week
+ 
+150 each
+ 
+indi +5.5
+jets +5.5
+phili -7
+seattle -3.5
+tenn +2
+sd +9
+jack +5.5 -----> 250
+st louis -8 
+st louis/ne england over 46.5
+ 
+ 
+cleaned body:5
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    }
+  ],
+  "claims": []
+}
+Processed row 7046
+subject:
+sender:john.arnold@enron.com
+date:2001-11-19 17:25:48+00:00
+body:I spose so but we might have to take stupid as well I just found out.
+cleaned body:I spose so but we might have to take stupid as well I just found out.
+-------------------------------------------------
+{"entities": [],
+"claims": [
+{
+"type": "Commitment",
+"subject": "I",
+"object": "might have to take stupid as well I just found out.",
+"event_time": "2001-11-19 17:25:48+00:00",
+"valid_from": null,
+"valid_to": null,
+"confidence": 0.75,
+"evidence": {
+"quote": "I spose so but we might have to take stupid as well I just found out.",
+"char_start": 1,
+"char_end": 62
+}
+}
+]
+}
+Processed row 7047
+subject:RE:
+sender:john.arnold@enron.com
+date:2001-11-19 17:59:20+00:00
+body:she's not allowed to go anymore per ENE
+
+ -----Original Message-----
+From: 	Ward, Kim S (Houston)  
+Sent:	Monday, November 19, 2001 11:32 AM
+To:	Arnold, John
+Subject:	RE: 
+
+are you talking about JS?  thought she was going to kentucky?  I was going with my friend Elizabeth but she is probobly going to have to work on Friday.  So I may just ride back with her.  Trying to figure it  all out.
+
+ -----Original Message-----
+From: 	Arnold, John  
+Sent:	Monday, November 19, 2001 11:26 AM
+To:	Ward, Kim S (Houston)
+Subject:	
+
+I spose so but we might have to take stupid as well I just found out.
+cleaned body:she's not allowed to go anymore per ENE
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Organization",
+      "name": "ENE"
+    }
+  ],
+  "claims": [
+    {
+      "type": "RoleAssignment",
+      "subject": "she",
+      "object": "go",
+      "value": {},
+      "event_time": "2001-11-19 17:59:20+00:00",
+      "valid_from": "null",
+      "valid_to": "null",
+      "confidence": 0.85,
+      "evidence": {
+        "quote": "she's not allowed to go anymore per ENE",
+        "char_start": 1,
+        "char_end": 23
+      }
+    }
+  ]
+}
+Validation failed after cleaning: 2 validation errors for ExtractedOutput
+claims.0.valid_from
+  Input should be a valid datetime, input is too short [type=datetime_parsing, input_value='null', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.1/v/datetime_parsing
+claims.0.valid_to
+  Input should be a valid datetime, input is too short [type=datetime_parsing, input_value='null', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.1/v/datetime_parsing
+subject:
+sender:john.arnold@enron.com
+date:2001-11-20 14:52:33+00:00
+body:can you get my after 3 eol volumes asap
+cleaned body:can you get my after 3 eol volumes asap
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    }
+  ],
+  "claims": [
+    {
+      "type": "MeetingPlan",
+      "subject": "John Arnold",
+      "object": "getting after 3 eol volumes asap",
+      "event_time": "2001-11-20 14:52:33+00:00",
+      "confidence": 0.85,
+      "evidence": {
+        "quote": "can you get my after 3 eol volumes asap",
+        "char_start": 0,
+        "char_end": 41
+      }
+    }
+  ]
+}
+Processed row 7049
+subject:RE: EFS presentation
+sender:john.arnold@enron.com
+date:2001-11-21 13:17:51+00:00
+body:I liked my drawing better
+
+ -----Original Message-----
+From: 	Abramo, Caroline  
+Sent:	Tuesday, November 20, 2001 9:04 AM
+To:	'doug@campbell.com'; 'arturo@campbell.com'
+Cc:	Arnold, John
+Subject:	EFS presentation
+
+Doug / Arturo-
+
+Below is a small presentation we made on EFS with the flow diagrams John drew out.
+
+Please call us when you are ready to discuss.
+
+Kind Regards,
+Caroline
+212 715 2395
+
+ << File: EFS.ppt >> 
+
+cleaned body:I liked my drawing better
+
+-------------------------------------------------
+{"entities": [],
+"claims": []}
+Processed row 7050
+subject:
+sender:john.arnold@enron.com
+date:2001-04-30 05:15:00+00:00
+body:pookie:
+check this out:
+www.sailmainecoast.com/index.html
+cleaned body:pookie:
+check this out:
+www.sailmainecoast.com/index.html
+-------------------------------------------------
+{"entities": [],
+"claims": [
+{
+"type": "MeetingPlan",
+"subject": "john.arnold@enron.com",
+"object": "website review (www.sailmainecoast.com)",
+"event_time": "2001-04-30 05:15:00+00:00",
+"valid_from": null,
+"valid_to": null,
+"confidence": 0.75,
+"evidence": {
+"quote": "pookie: check this out:",
+"char_start": 0,
+"char_end": 21
+}
+}
+]
+}
+Processed row 7051
+subject:RE: Enron EFS issues
+sender:john.arnold@enron.com
+date:2001-11-21 13:18:11+00:00
+body:Looking into it
+
+ -----Original Message-----
+From: 	Abramo, Caroline  
+Sent:	Tuesday, November 20, 2001 9:37 AM
+To:	Arnold, John
+Subject:	FW: Enron EFS issues
+
+
+
+ -----Original Message-----
+From: 	Doug York <doug@Campbell.com>@ENRON  
+Sent:	Tuesday, November 20, 2001 10:16 AM
+To:	Abramo, Caroline
+Cc:	Arturo Hidalgo; Terri Becks; Dick Bell
+Subject:	Enron EFS issues
+
+Thanks for taking the time to put this PowerPoint presentation together to
+better outline the flow. It helps us discuss it internally.
+
+Recently our internal compliance folks have discussed the "give-up risk".
+Specifically, what guarantee do we have that the executor's (Enron) FCM will
+accept the block trade and get it to the exchange on behalf of our clients?
+There is some concern that there might be limits imposed by the FCM due to
+issues such as credit and the high volatility of NG.
+
+They have requested we sign a four (or more) party give-up agreement between
+Campbell, Enron, your clearing firm(s) and our clearing firm(s).  Is this
+the SOP as you envision the NYMEX EFS?  We are at the point where the
+specific documentation issues are the main obstacles to moving forward.  If
+we buy 1,000 NG from you, how do we know your FCM can guarantee acceptance
+of the trade for further give-up?  Your legal feedback is welcome.
+
+Thanks,
+CDY
+
+
+========================================================
+
+The information transmitted in this email is intended for the named
+addressee(s) only.  As this email may contain confidential and/or
+privileged information, if you are not the intended recipient, you are
+not authorized to retain, read, copy or disseminate this email or any
+part of it.  If you received this email in error, please contact the
+sender and permanently delete the email and any attachments.
+
+Unless expressly stated, opinions in this email are those of the
+individual sender and not of Campbell & Company, Inc.
+
+
+
+
+ - EFS.ppt << File: EFS.ppt >> 
+cleaned body:Looking into it
+
+-------------------------------------------------
+{
+  "entities": [
+    {
+      "type": "Person",
+      "name": "John Arnold",
+      "email": "john.arnold@enron.com"
+    }
+  ],
+  "claims": []
+}
+Processed row 7052
+subject:RE:
+sender:john.arnold@enron.com
+date:2001-11-21 13:25:17+00:00
+body:Kristin:
+Sorry for the delay.  Unfotunately I don't have any openings in my group right now.  If I hear of any positions open I'll give you a shout.  Can you remind me what title you have now.   
+John
+
+ -----Original Message-----
+From: 	Gandy, Kristin  
+Sent:	Monday, November 19, 2001 9:00 AM
+To:	Arnold, John
+Subject:	
+
+John,
+
+Hello and good Monday morning to you.  I briefly meet you while talking to Paul Racicot on Friday at Front Porch Pub.  With Matt working here in Freight you probably already know we are not well off these days.  Next on the chopping block is never a good place to be.  
+
+This is a forward question but what the hell.  I was wondering if you knew of any positions available in your area.  If you can believe it I am not ready to leave Enron behind yet.  Thanks for your help.
+
+Regards,
+
+Kristin Gandy
+Freight Markets
+Enron Global Markets
+1400 Smith Street ECS 3657
+Houston, Texas  77002
+713-853-7263 
+kristin.gandy@enron.com
+cleaned body:Kristin:
+Sorry for the delay.  Unfotunately I don't have any openings in my group right now.  If I hear of any positions open I'll give you a shout.  Can you remind me what title you have now.   
+John
+
+-------------------------------------------------

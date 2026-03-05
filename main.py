@@ -24,7 +24,7 @@ for idx in range(start_index, len(df)):
     row = df.iloc[idx]
 
     try:
-        result, cleaned_body, timestamp_utc = extract_structured(row)
+        result, cleaned_body, timestamp_utc ,Sender = extract_structured(row)
 
         if not result:
             with open(PROGRESS_FILE, "w") as f:
@@ -45,7 +45,7 @@ for idx in range(start_index, len(df)):
             result,
             artifact_id,
             row.get("subject", ""),
-            row.get("from", ""),
+            Sender,
             timestamp_utc,
             message_id
         )

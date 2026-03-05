@@ -18,7 +18,8 @@ class Neo4jGraph:
     def insert_artifact(self, tx, artifact_id, subject, sender, timestamp):
         tx.run("""
         MERGE (a:Artifact {artifact_id: $artifact_id})
-        SET a.subject = $subject,
+        SET a.title = $timestamp,
+            a.subject = $subject,
             a.sender = $sender,
             a.timestamp = $timestamp
         """,
@@ -36,6 +37,7 @@ class Neo4jGraph:
         tx.run("""
         MERGE (e:Entity {normalized_name: toLower($normalized_name)})
         ON CREATE SET
+            e.title = $name,
             e.name = $name,
             e.type = $type,
             e.email = $email,
@@ -60,7 +62,8 @@ class Neo4jGraph:
 
         MERGE (c:Claim {claim_id: $claim_id})
 
-        SET c.type = $type,
+        SET c.title = $type,
+            c.type = $type,
             c.subject = $subject,
             c.object = $object,
             c.valid_from = $valid_from,
@@ -89,6 +92,7 @@ class Neo4jGraph:
         MATCH (a:Artifact {artifact_id: $artifact_id})
 
         CREATE (e:Evidence {
+            title: $quote,
             quote: $quote,
             char_start: $char_start,
             char_end: $char_end,
